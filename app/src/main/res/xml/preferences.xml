@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_global_title"
+        android:key="pref_key_storage_settings">
+
+        <CheckBoxPreference
+            android:key="pref_analytic"
+            android:title="@string/pref_analytic"
+            android:summary="@string/pref_analytic_summ"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="pref_gcm"
+            android:title="@string/pref_gcm"
+            android:summary="@string/pref_gcm_summ"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

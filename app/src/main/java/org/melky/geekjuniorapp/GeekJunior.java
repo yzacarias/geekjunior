@@ -1,6 +1,7 @@
 package org.melky.geekjuniorapp;
 
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
@@ -140,6 +141,8 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent i = new Intent(this,GeekPrefActivity.class);
+            startActivity(i);
             return true;
         }
 
