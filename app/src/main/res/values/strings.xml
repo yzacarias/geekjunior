@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">GeekJuniorUp</string>
+
+    <string name="action_example">Recher</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="title_section">Section</string>
+
+
+    <!-- Fragment principal -->
+    <string name="ultimas_noticias">Dernières Nouvelles</string>
+
+    <!--Drawer fragment-->
+    <string name="navigation_drawer_open">Ouvert navigation drawer</string>
+    <string name="navigation_drawer_close">Fermer navigation drawer</string>
+
+    <!-- Catégorie -->
+    <string name="title_actualidad">Actualités</string>
+    <string name="title_acplicaciones">Applications</string>
+    <string name="title_viedojuegos">Jeux Video</string>
+    <string name="title_estudiar">Études</string>
+    <string name="title_consejos">Astuces</string>
+    <string name="title_gadgets">Gadgets</string>
+    <string name="title_videos">Vidéos</string>
+
+    <!--Menu actionShare -->
+    <string name="menu_share">Part</string>
+    <string name="text_share">Je vous recommande de voir l\'article GeekJunior</string>
+
+    <!--List View-->
+    <string name="hace_ya">Il y a</string>
+    <string name="dias">jours</string>
+    <string name="horas">heures</string>
+    <string name="minutos">minutes</string>
+    <string name="segundos">secondes</string>
+
+    <!-- Catégorie -->
+    <string name="_header">Dernières Nouvelles</string>
+    <string name="title_section1">Actualités</string>
+    <string name="title_section2">Applications</string>
+    <string name="title_section3">Jeux Video</string>
+    <string name="title_section4">Études</string>
+    <string name="title_section5">Astuces</string>
+    <string name="title_section6">Gadgets</string>
+    <string name="title_section7">Vidéos</string>
+    <string name="title_section8">Android</string>
+    <string name="title_section9">Iphone-Ipad</string>
+    <string name="title_section10">Windows</string>
+    <string name="title_section11">Xbox</string>
+    <string name="title_section12">PlayStation</string>
+    <string name="title_section13">WII U</string>
+    <string name="title_section14">Web</string>
+
+    <!-- Volley -->
+    <string name="volley_error">Upss ... quelque chose d\'étrange est arrivé</string>
+
+
+</resources>
