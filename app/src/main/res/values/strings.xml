@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GeekJuniorUp</string>
+    <string name="app_name">GeekJunior</string>
 
     <string name="action_example">Recher</string>
     <string name="action_settings">Paramètres</string>
@@ -60,7 +60,7 @@
     <string name="pref_analytic_summ">Activer statistiques de Google Analytics</string>
 
     <string name="pref_gcm">Notifications</string>
-    <string name="pref_gcm_summ">Notificiaciones serveur envoyer r\éguli\èrement des nouveau poste</string>
+    <string name="pref_gcm_summ">Notificiaciones serveur envoyer régulièrement des nouveau poste</string>
 
 
 </resources>
