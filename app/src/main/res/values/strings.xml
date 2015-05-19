@@ -53,5 +53,14 @@
     <!-- Volley -->
     <string name="volley_error">Upss ... quelque chose d\'étrange est arrivé</string>
 
+    <!-- Preference values -->
+    <string name="pref_global_title">MONDIAL</string>
+
+    <string name="pref_analytic">Etatistiques</string>
+    <string name="pref_analytic_summ">Activer statistiques de Google Analytics</string>
+
+    <string name="pref_gcm">Notifications</string>
+    <string name="pref_gcm_summ">Notificiaciones serveur envoyer r\éguli\èrement des nouveau poste</string>
+
 
 </resources>
