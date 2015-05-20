@@ -23,6 +23,11 @@ import android.webkit.WebViewClient;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
 import java.net.URI;
 
 public class WebFragment extends Fragment {
@@ -58,7 +63,7 @@ public class WebFragment extends Fragment {
 	@Override
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 		super.onCreateOptionsMenu(menu, inflater);
-		inflater.inflate(R.menu.main_menu,menu);
+		inflater.inflate(R.menu.main_menu, menu);
 		MenuItem shareItem = menu.findItem(R.id.menu_share);
         shareAction = (ShareActionProvider) MenuItemCompat.getActionProvider(shareItem);
 
@@ -85,7 +90,7 @@ public class WebFragment extends Fragment {
 			public boolean onShareTargetSelected(ShareActionProvider source, Intent intent) {
 				Tracker t = ((GoogleAnalyticsApp) a.getApplication())
 						.getTracker(GoogleAnalyticsApp
-                                .TrackerName.APP_TRACKER);
+								.TrackerName.APP_TRACKER);
 				t.setScreenName("WebFranment");
 				CharSequence s = intent.getExtras().getCharSequence(Intent.EXTRA_TEXT);
 				/*
@@ -93,11 +98,11 @@ public class WebFragment extends Fragment {
 						.setCategory(intent.getComponent().getPackageName())
 						.setAction(s.toString()).build());
 				*/
-                t.send(new HitBuilders.SocialBuilder()
-                        .setNetwork(intent.getComponent().getPackageName())
-                        .setAction("SHARE")
-                        .setTarget(s.toString())
-                        .build());
+				t.send(new HitBuilders.SocialBuilder()
+						.setNetwork(intent.getComponent().getPackageName())
+						.setAction("SHARE")
+						.setTarget(s.toString())
+						.build());
 				return false;
 			}
 		});
@@ -141,6 +146,12 @@ public class WebFragment extends Fragment {
 		if(!dp.equals("1"))
 			w.loadUrl(mUrl);
 		else{
+
+			String mm = transContent(mUrl);
+			if(mm != null){
+				mUrl=mm;
+			}
+
 			String content =
 					"<?xml version=\"1.0\" encoding=\"UTF-8\" ?>"+
 							"<html><head>"+
@@ -151,6 +162,35 @@ public class WebFragment extends Fragment {
 			w.loadData(content,"text/html; charset=utf-8", null);
 		}
 		return fragmentview;
+	}
+
+	private String transContent(String mUrl) {
+		Document doc = Jsoup.parse(mUrl);
+		Element content = doc.getElementById("review-box");
+		if (content != null) {
+			Elements ri = content.select("div[class=review-item]");
+			Elements h5 = content.select("h5");
+			Elements h4 = content.select("h4");
+			Elements v = content.select("span[class=post-large-rate stars-large]>span");
+
+			String s[]= v.get(0).attr("style").split(":");
+			String p = h5.get(0).append(": " + s[1]).toString();
+
+			s = v.get(1).attr("style").split(":");
+			p = h5.get(1).append(": " + s[1]).toString();
+
+			s = v.get(2).attr("style").split(":");
+			p = h5.get(2).append(": " + s[1]).toString();
+
+			s = v.get(3).attr("style").split(":");
+			p = h5.get(3).append(": " + s[1]).toString();
+
+			s = v.get(4).attr("style").split(":");
+			p = h4.get(0).append(": " + s[1]).toString();
+
+			return doc.outerHtml().toString();
+		}
+		return null;
 	}
 
 }

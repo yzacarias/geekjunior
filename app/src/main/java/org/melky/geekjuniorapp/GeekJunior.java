@@ -161,7 +161,7 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
         // update the main content by replacing fragments
         FragmentManager fragmentManager = getSupportFragmentManager();
 
-        //Consumo el stack de fragments pues navego a través del Drawer
+        //Consumo el stack de fragments pues navego a traves del Drawer
         fragmentManager.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
         switch (position) {
