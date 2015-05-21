@@ -168,25 +168,16 @@ public class WebFragment extends Fragment {
 		Document doc = Jsoup.parse(mUrl);
 		Element content = doc.getElementById("review-box");
 		if (content != null) {
-			Elements ri = content.select("div[class=review-item]");
 			Elements h5 = content.select("h5");
 			Elements h4 = content.select("h4");
 			Elements v = content.select("span[class=post-large-rate stars-large]>span");
 
-			String s[]= v.get(0).attr("style").split(":");
-			String p = h5.get(0).append(": " + s[1]).toString();
+			h5.get(0).append(": " + v.get(0).attr("style").split(":")[1]);
+			h5.get(1).append(": " + v.get(1).attr("style").split(":")[1]);
+			h5.get(2).append(": " + v.get(2).attr("style").split(":")[1]);
+			h5.get(3).append(": " + v.get(3).attr("style").split(":")[1]);
 
-			s = v.get(1).attr("style").split(":");
-			p = h5.get(1).append(": " + s[1]).toString();
-
-			s = v.get(2).attr("style").split(":");
-			p = h5.get(2).append(": " + s[1]).toString();
-
-			s = v.get(3).attr("style").split(":");
-			p = h5.get(3).append(": " + s[1]).toString();
-
-			s = v.get(4).attr("style").split(":");
-			p = h4.get(0).append(": " + s[1]).toString();
+			h4.get(0).append(": " + v.get(4).attr("style").split(":")[1]);
 
 			return doc.outerHtml().toString();
 		}

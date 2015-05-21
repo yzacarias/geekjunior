@@ -1,5 +1,6 @@
 package org.melky.geekjuniorapp;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -22,6 +23,7 @@ public class PlaceholderFragment extends Fragment {
 	/**
 	 * Returns a new instance of this fragment for the given section number.
 	 */
+	@SuppressLint("ValidFragment")
 	public PlaceholderFragment(int sectionNumber) {
 		Bundle args = new Bundle();
 		args.putInt(ARG_SECTION_NUMBER, sectionNumber);
