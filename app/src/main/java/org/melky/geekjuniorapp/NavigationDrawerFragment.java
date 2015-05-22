@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -103,14 +104,14 @@ public class NavigationDrawerFragment extends Fragment {
 				R.layout.fragment_navigation_drawer, container, false);
 		mDrawerListView
 				.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-					@Override
-					public void onItemClick(AdapterView<?> parent, View view,
-											int position, long id) {
-						selectItem(position);
-					}
-				});
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view,
+                                            int position, long id) {
+                        selectItem(position);
+                    }
+                });
 
-		mDrawerListView.setAdapter(new ArrayAdapter<String>(getActionBar()
+		/*mDrawerListView.setAdapter(new ArrayAdapter<String>(getActionBar()
 				//.getThemedContext(), android.R.layout.simple_list_item_1,
 				.getThemedContext(), R.layout.fragment_navigation_drawer_item,
 				android.R.id.text1, new String[] {
@@ -129,7 +130,9 @@ public class NavigationDrawerFragment extends Fragment {
 						getString(R.string.title_section12),
 						getString(R.string.title_section13),
 						getString(R.string.title_section14),
-		}));
+		}));*/
+        mDrawerListView.setAdapter(new PostArrayAdapter());
+
 		mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
 		return mDrawerListView;
 	}
@@ -322,5 +325,70 @@ public class NavigationDrawerFragment extends Fragment {
 		 * Called when an item in the navigation drawer is selected.
 		 */
 		void onNavigationDrawerItemSelected(int position);
+	}
+
+	private class PostArrayAdapter extends BaseAdapter{
+        final String[] drawer_item = new String[] {
+            getString(R.string._header),
+                getString(R.string._header2),
+                    getString(R.string.title_section1),
+                    getString(R.string.title_section2),
+                    getString(R.string.title_section3),
+                    getString(R.string.title_section4),
+                    getString(R.string.title_section5),
+                    getString(R.string.title_section6),
+                    getString(R.string.title_section7),
+                    getString(R.string.title_section8),
+                    getString(R.string.title_section9),
+                    getString(R.string.title_section10),
+                    getString(R.string.title_section11),
+                    getString(R.string.title_section12),
+                    getString(R.string.title_section13),
+                    getString(R.string.title_section14),
+                getString(R.string._footer),
+        };
+
+		@Override
+		public int getCount() {
+			return drawer_item.length;
+		}
+
+		@Override
+		public Object getItem(int position) {
+			return drawer_item[position];
+		}
+
+		@Override
+		public long getItemId(int position) {
+			return position;
+		}
+
+		@Override
+		public View getView(int position, View convertView, ViewGroup parent) {
+            View v = getActivity().getLayoutInflater().inflate(R.layout.fragment_navigation_drawer_item, parent, false);
+
+            TextView separador = (TextView) v.findViewById(R.id.separator);
+            TextView titulo = (TextView) v.findViewById(android.R.id.text1);
+
+            switch (position){
+                case 0:
+                    separador.setVisibility(View.VISIBLE);
+                    separador.setText("Accueil");
+                    break;
+                case 2:
+                    separador.setVisibility(View.VISIBLE);
+                    separador.setText("Catégories");
+                    break;
+                case 16:
+                    separador.setVisibility(View.VISIBLE);
+                    break;
+                default:
+                    separador.setVisibility(View.GONE);
+                    break;
+            }
+            titulo.setText(drawer_item[position]);
+
+			return v;
+		}
 	}
 }

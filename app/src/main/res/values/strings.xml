@@ -35,6 +35,8 @@
 
     <!-- Catégorie -->
     <string name="_header">Dernières Nouvelles</string>
+    <string name="_header2">Suivez-nous</string>
+
     <string name="title_section1">Actualités</string>
     <string name="title_section2">Applications</string>
     <string name="title_section3">Jeux Video</string>
@@ -49,6 +51,8 @@
     <string name="title_section12">PlayStation</string>
     <string name="title_section13">WII U</string>
     <string name="title_section14">Web</string>
+
+    <string name="_footer">À propos!</string>
 
     <!-- Volley -->
     <string name="volley_error">Upss ... quelque chose d\'étrange est arrivé</string>
