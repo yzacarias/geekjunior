@@ -373,11 +373,11 @@ public class NavigationDrawerFragment extends Fragment {
             switch (position){
                 case 0:
                     separador.setVisibility(View.VISIBLE);
-                    separador.setText("Accueil");
+                    separador.setText(getString(R.string.separador1));
                     break;
                 case 2:
                     separador.setVisibility(View.VISIBLE);
-                    separador.setText("Catégories");
+                    separador.setText(getString(R.string.separador2));
                     break;
                 case 16:
                     separador.setVisibility(View.VISIBLE);

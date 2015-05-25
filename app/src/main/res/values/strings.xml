@@ -24,7 +24,7 @@
 
     <!--Menu actionShare -->
     <string name="menu_share">Part</string>
-    <string name="text_share">Je vous recommande de voir l\'article GeekJunior</string>
+    <string name="text_share"></string>
 
     <!--List View-->
     <string name="hace_ya">Il y a</string>
@@ -34,9 +34,11 @@
     <string name="segundos">secondes</string>
 
     <!-- Catégorie -->
+    <string name="separador1">Accueil</string>
     <string name="_header">Dernières Nouvelles</string>
     <string name="_header2">Suivez-nous</string>
 
+    <string name="separador2">Catégories</string>
     <string name="title_section1">Actualités</string>
     <string name="title_section2">Applications</string>
     <string name="title_section3">Jeux Video</string>

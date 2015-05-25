@@ -156,6 +156,7 @@ public class WebFragment extends Fragment {
 					"<?xml version=\"1.0\" encoding=\"UTF-8\" ?>"+
 							"<html><head>"+
 							"<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />" +
+
 							"<style>iframe,img {max-width: 100%; width:auto; height: auto; align: middle}</style>" +
 							"</head><body><h3>"+title+"</h3>";
 			content += mUrl + "</body></html>";

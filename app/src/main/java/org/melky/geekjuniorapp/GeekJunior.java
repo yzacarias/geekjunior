@@ -170,87 +170,100 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
                         .replace(R.id.container, new GeekPostFragment(),"post")
                         .commit();
                 break;
-
             case 1:
+                //getJsonCategoryFragment("actualites");
+                fragmentManager.beginTransaction()
+                        //.replace(R.id.container, new PlaceholderFragment(position))
+                        .replace(R.id.container, new PlusOneGeekFragment())
+                        .commit();
+                break;
+            case 2:
                 getJsonCategoryFragment("actualites");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 2:
+            case 3:
                 getJsonCategoryFragment("applications");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 3:
+            case 4:
                 getJsonCategoryFragment("jeux-video");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 4:
+            case 5:
                 getJsonCategoryFragment("etudes ");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 5:
+            case 6:
                 getJsonCategoryFragment("astuces");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 6:
+            case 7:
                 getJsonCategoryFragment("gadgets");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 7:
+            case 8:
                 getJsonCategoryFragment("videos");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 8:
+            case 9:
                 getJsonCategoryFragment("android");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 9:
+            case 10:
                 getJsonCategoryFragment("iphone-ipad");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 10:
+            case 11:
                 getJsonCategoryFragment("windows");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 11:
+            case 12:
                 getJsonCategoryFragment("xbox");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 12:
+            case 13:
                 getJsonCategoryFragment("playstation");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 13:
+            case 14:
                 getJsonCategoryFragment("wiiu");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
                 break;
-            case 14:
+            case 15:
                 getJsonCategoryFragment("web");
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container, new PlaceholderFragment(position))
+                        .commit();
+                break;
+
+            case 16:
+                //getJsonCategoryFragment("web");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .commit();
@@ -291,47 +304,52 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
                 mTitle = getString(R.string._header);
                 break;
             case 1:
-                mTitle = getString(R.string.title_section1);
+                mTitle = getString(R.string._header2);
                 break;
             case 2:
-                mTitle = getString(R.string.title_section2);
+                mTitle = getString(R.string.title_section1);
                 break;
             case 3:
-                mTitle = getString(R.string.title_section3);
+                mTitle = getString(R.string.title_section2);
                 break;
             case 4:
-                mTitle = getString(R.string.title_section4);
+                mTitle = getString(R.string.title_section3);
                 break;
             case 5:
-                mTitle = getString(R.string.title_section5);
+                mTitle = getString(R.string.title_section4);
                 break;
             case 6:
-                mTitle = getString(R.string.title_section6);
+                mTitle = getString(R.string.title_section5);
                 break;
             case 7:
-                mTitle = getString(R.string.title_section7);
+                mTitle = getString(R.string.title_section6);
                 break;
             case 8:
-                mTitle = getString(R.string.title_section8);
+                mTitle = getString(R.string.title_section7);
                 break;
             case 9:
-                mTitle = getString(R.string.title_section9);
+                mTitle = getString(R.string.title_section8);
                 break;
             case 10:
-                mTitle = getString(R.string.title_section10);
+                mTitle = getString(R.string.title_section9);
                 break;
             case 11:
-                mTitle = getString(R.string.title_section11);
+                mTitle = getString(R.string.title_section10);
                 break;
             case 12:
-                mTitle = getString(R.string.title_section12);
+                mTitle = getString(R.string.title_section11);
                 break;
             case 13:
-                mTitle = getString(R.string.title_section13);
+                mTitle = getString(R.string.title_section12);
                 break;
             case 14:
+                mTitle = getString(R.string.title_section13);
+                break;
+            case 15:
                 mTitle = getString(R.string.title_section14);
                 break;
+            case 16:
+                mTitle = getString(R.string._footer);
         }
     }
 }
