@@ -108,13 +108,11 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
             searchView.setOnQueryTextListener(new OnQueryTextListener() {
                 @Override
                 public boolean onQueryTextSubmit(String arg0) {
-                    // TODO Auto-generated method stub
                     return false;
                 }
 
                 @Override
                 public boolean onQueryTextChange(String arg0) {
-                    // TODO Auto-generated method stub
                     return false;
                 }
             });*/
@@ -265,7 +263,8 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
             case 16:
                 //getJsonCategoryFragment("web");
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, new PlaceholderFragment(position))
+                        //.replace(R.id.container, new PlaceholderFragment(position))
+                        .replace(R.id.container, new LicenseGeekFragment())
                         .commit();
                 break;
         }

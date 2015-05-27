@@ -51,11 +51,13 @@ public class splashScreen extends Activity {
             TextView versionNumber = (TextView) findViewById(R.id.versionNumber);
             versionNumber.setText("Version " + pi.versionName);
         } catch (NameNotFoundException e) {
-            // TODO Auto-generated catch block
+            // Auto-generated catch block
             e.printStackTrace();
         }
         //http://www.geekjunior.fr/wp-json/posts?filter[category_name]=jeux-video
         //http://www.geekjunior.fr/wp-json/posts?filter[tag]=jeu-iphone
+        //http://www.geekjunior.fr/wp-json/posts/?filter[year]=2015&filter[monthnum]=5&filter[day]=17&filter[posts_per_page]=10
+        //http://www.geekjunior.fr/wp-json/posts/?filter[posts_per_page]=1&page=6
         StringRequest j = new StringRequest("http://www.geekjunior.fr/wp-json/posts?filter[posts_per_page]=10", new Response.Listener<String>() {
             @Override
             public void onResponse(String jsonArray) {
@@ -68,6 +70,7 @@ public class splashScreen extends Activity {
             public void onErrorResponse(VolleyError volleyError) {
                 Toast.makeText(getApplicationContext(), getText(R.string.volley_error),Toast.LENGTH_SHORT).show();
                 splashScreen.this.finish();
+                //TODO mejor ir a la página principal con datos o bien vacío o bien los últimos guardados
             }
         });
 

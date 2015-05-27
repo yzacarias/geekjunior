@@ -152,7 +152,7 @@ public class GeekPostAdapter extends BaseAdapter{
             }
 
         } catch (ParseException e) {
-            // TODO Auto-generated catch block
+            // Auto-generated catch block
 
         }
     }
