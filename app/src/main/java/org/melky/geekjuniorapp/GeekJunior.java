@@ -6,6 +6,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -158,6 +159,23 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
     }
 
     @Override
+    public void onBackPressed() {
+
+
+        final FragmentManager fragmentManager = getSupportFragmentManager();
+        int i = fragmentManager.getBackStackEntryCount();
+        if (i==2) {
+            mTitle = getString(R.string._header); //Titulo inicial
+            boolean b = fragmentManager.popBackStackImmediate("PlaceholderFragment", FragmentManager.POP_BACK_STACK_INCLUSIVE);
+            //boolean b = fragmentManager.popBackStackImmediate();
+            restoreActionBar();
+            assert(b);
+        }else {
+            super.onBackPressed();
+        }
+    }
+
+    @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
         final FragmentManager fragmentManager = getSupportFragmentManager();
@@ -182,14 +200,15 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
                 },1000);
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
-                        //.addToBackStack(null)
+                        .addToBackStack(null)
                         .commit();
                 break;
             case 2:
                 getJsonCategoryFragment("actualites");
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, new PlaceholderFragment(position))
-                        //.addToBackStack(null)
+                        .replace(R.id.container, new PlaceholderFragment(position),"PlaceholderFragment")
+                        .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+                        .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 3:
@@ -312,7 +331,8 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
 
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new GeekCategoriesFragment())
-                        //.addToBackStack(null)
+                        .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+                        .addToBackStack(null)
                         .commit();
 
             }
