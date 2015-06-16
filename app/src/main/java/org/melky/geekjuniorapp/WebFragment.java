@@ -55,9 +55,11 @@ public class WebFragment extends Fragment {
 		setHasOptionsMenu(true);
 		a = activity;
 
-		Tracker t = ((GoogleAnalyticsApp) a.getApplication()).getTracker(GoogleAnalyticsApp.TrackerName.APP_TRACKER);
-		t.setScreenName("WebFranment");
-		t.send(new HitBuilders.ScreenViewBuilder().build());
+		if(GoogleAnalyticsApp.googleAnalitic) {
+			Tracker t = ((GoogleAnalyticsApp) a.getApplication()).getTracker(GoogleAnalyticsApp.TrackerName.APP_TRACKER);
+			t.setScreenName("WebFranment");
+			t.send(new HitBuilders.ScreenViewBuilder().build());
+		}
 	}
 
 	@Override
@@ -88,21 +90,24 @@ public class WebFragment extends Fragment {
 		shareAction.setOnShareTargetSelectedListener(new ShareActionProvider.OnShareTargetSelectedListener() {
 			@Override
 			public boolean onShareTargetSelected(ShareActionProvider source, Intent intent) {
-				Tracker t = ((GoogleAnalyticsApp) a.getApplication())
-						.getTracker(GoogleAnalyticsApp
-								.TrackerName.APP_TRACKER);
-				t.setScreenName("WebFranment");
-				CharSequence s = intent.getExtras().getCharSequence(Intent.EXTRA_TEXT);
+				if(GoogleAnalyticsApp.googleAnalitic) {
+					Tracker t = ((GoogleAnalyticsApp) a.getApplication())
+							.getTracker(GoogleAnalyticsApp
+									.TrackerName.APP_TRACKER);
+					t.setScreenName("WebFranment");
+
+					CharSequence s = intent.getExtras().getCharSequence(Intent.EXTRA_TEXT);
 				/*
 				t.send(new HitBuilders.EventBuilder()
 						.setCategory(intent.getComponent().getPackageName())
 						.setAction(s.toString()).build());
 				*/
-				t.send(new HitBuilders.SocialBuilder()
-						.setNetwork(intent.getComponent().getPackageName())
-						.setAction("SHARE")
-						.setTarget(s.toString())
-						.build());
+					t.send(new HitBuilders.SocialBuilder()
+							.setNetwork(intent.getComponent().getPackageName())
+							.setAction("SHARE")
+							.setTarget(s.toString())
+							.build());
+				}
 				return false;
 			}
 		});

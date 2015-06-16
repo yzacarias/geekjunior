@@ -2,14 +2,53 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
 
-    <com.google.android.gms.plus.PlusOneButton xmlns:plus="http://schemas.android.com/apk/lib/com.google.android.gms.plus"
-        android:id="@+id/plus_one_button"
+    android:gravity="center_vertical">
+
+<!--
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="50dp"
-        plus:size="standard" />
+        android:text="GeekJunior est ..."
+        android:id="@+id/textView3"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/abc_primary_text_material_light"
+        />
+-->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/facebookbtm"
+        android:src="@drawable/facebook"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/googleplusbtm"
+        android:src="@drawable/googleplus"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/twitterbtm"
+        android:src="@drawable/twitter"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp">
+    </ImageView>
 
 </LinearLayout>

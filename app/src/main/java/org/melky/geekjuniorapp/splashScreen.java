@@ -2,12 +2,14 @@ package org.melky.geekjuniorapp;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.os.Handler;
+import android.preference.PreferenceManager;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -32,9 +34,15 @@ public class splashScreen extends Activity {
 
     @Override
     public void onCreate(Bundle icicle) {
-        Tracker t = ((GoogleAnalyticsApp) getApplication()).getTracker(GoogleAnalyticsApp.TrackerName.APP_TRACKER);
-        t.setScreenName("GeekJunior");
-        t.send(new HitBuilders.ScreenViewBuilder().build());
+        SharedPreferences sp = PreferenceManager
+                .getDefaultSharedPreferences(getApplicationContext());
+        GoogleAnalyticsApp.googleAnalitic = sp.getBoolean("pref_analytic",true);
+
+        if(GoogleAnalyticsApp.googleAnalitic) {
+            Tracker t = ((GoogleAnalyticsApp) getApplication()).getTracker(GoogleAnalyticsApp.TrackerName.APP_TRACKER);
+            t.setScreenName("GeekJunior");
+            t.send(new HitBuilders.ScreenViewBuilder().build());
+        }
 
         super.onCreate(icicle);
 
@@ -91,7 +99,7 @@ public class splashScreen extends Activity {
         long l = file.lastModified();
         long sc = System.currentTimeMillis();
         long d = sc-l;
-        if (sc - l < 10*60*1000) {     //10 min for developr porpouse
+        if (sc - l < 15*60*1000) {     //15 min for developr porpouse
             return read_file_stream(file,length);
         }
         return "";

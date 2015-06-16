@@ -68,5 +68,30 @@
     <string name="pref_gcm">Notifications</string>
     <string name="pref_gcm_summ">Notificiaciones serveur envoyer régulièrement des nouveau poste</string>
 
-
+    <string name="license">
+        <![CDATA[
+<h5><b>A propos de Geek Junior</b></h5>
+<p>Geek Junior s\’adresse aux adolescents même si tout le monde y est le bienvenu.
+<p>Actualités, tests, tutoriels et vidéos… Geek Junior traite essentiellement des applications mobiles, des jeux vidéo, des gadgets geek et des solutions éducatives pour aider les adolescents dans leur travail scolaire.</p>
+<p>Créer par deux parents d\’adolescents, Geek Junior se veut un lieu de découverte et d\’échange, avec l\’utilisation d\’un ton direct sans être infantilisant ni moralisateur.</p>
+<p>Pour nous joindre : contact@geekjunior.fr<br>
+Pour joindre la rédaction : redaction@geekjunior.fr</p>
+<h6><b>Editeurs:</b></h6>
+Mariel Balbuena Vallejos et Christophe Coquis<br>
+Adresse : 7 petite rue Cabrol - 81600 Gaillac<br>
+Directeur de la publication : Christophe Coquis<br>
+Contact : geekjunior.fr/contact<br>
+Hébergement : Qwant<br>
+<h6><b>Conception de l\'application:</b></h6>
+Rafael Romero Sánchez (yzacarias@gmail.com)
+]]>
+    </string>
+    <string name="license2">
+        <![CDATA[
+<h5><b>L\'application </b></h5>
+<p>"Geekjunior Android" est publié en tant que logiciel libre sous licence
+"GNU General Public License, Version 2, Juin 1991 (GPLv2)."</p>
+<p>Le code source est public dans https://github.com/yzacarias/geekjunior</p>
+]]>
+    </string>
 </resources>

@@ -4,6 +4,7 @@ package org.melky.geekjuniorapp;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
@@ -46,9 +47,11 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Tracker t = ((GoogleAnalyticsApp) getApplication()).getTracker(GoogleAnalyticsApp.TrackerName.APP_TRACKER);
-        t.setScreenName("GeekJunior");
-        t.send(new HitBuilders.ScreenViewBuilder().build());
+        if(GoogleAnalyticsApp.googleAnalitic) {
+            Tracker t = ((GoogleAnalyticsApp) getApplication()).getTracker(GoogleAnalyticsApp.TrackerName.APP_TRACKER);
+            t.setScreenName("GeekJunior");
+            t.send(new HitBuilders.ScreenViewBuilder().build());
+        }
 
         setContentView(R.layout.activity_geek_junior);
 
@@ -157,7 +160,7 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
-        FragmentManager fragmentManager = getSupportFragmentManager();
+        final FragmentManager fragmentManager = getSupportFragmentManager();
 
         //Consumo el stack de fragments pues navego a traves del Drawer
         fragmentManager.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
@@ -169,34 +172,45 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
                         .commit();
                 break;
             case 1:
-                //getJsonCategoryFragment("actualites");
+                new Handler().postDelayed(new Runnable() {
+                    public void run() {
+                        fragmentManager.beginTransaction()
+                                .replace(R.id.container, new PlusOneGeekFragment())
+                                //.addToBackStack(null)
+                                .commit();
+                    }
+                },1000);
                 fragmentManager.beginTransaction()
-                        //.replace(R.id.container, new PlaceholderFragment(position))
-                        .replace(R.id.container, new PlusOneGeekFragment())
+                        .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 2:
                 getJsonCategoryFragment("actualites");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 3:
                 getJsonCategoryFragment("applications");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 4:
                 getJsonCategoryFragment("jeux-video");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 5:
                 getJsonCategoryFragment("etudes ");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 6:
@@ -209,62 +223,78 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
                 getJsonCategoryFragment("gadgets");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 8:
                 getJsonCategoryFragment("videos");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 9:
                 getJsonCategoryFragment("android");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 10:
                 getJsonCategoryFragment("iphone-ipad");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 11:
                 getJsonCategoryFragment("windows");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 12:
                 getJsonCategoryFragment("xbox");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 13:
                 getJsonCategoryFragment("playstation");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 14:
                 getJsonCategoryFragment("wiiu");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
             case 15:
                 getJsonCategoryFragment("web");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
 
             case 16:
-                //getJsonCategoryFragment("web");
+                new Handler().postDelayed(new Runnable() {
+                    public void run() {
+                        fragmentManager.beginTransaction()
+                                .replace(R.id.container, new LicenseGeekFragment())
+                                //.addToBackStack(null)
+                                .commit();
+                    }
+                }, 1000);
                 fragmentManager.beginTransaction()
-                        //.replace(R.id.container, new PlaceholderFragment(position))
-                        .replace(R.id.container, new LicenseGeekFragment())
+                        .replace(R.id.container, new PlaceholderFragment(position))
+                        //.addToBackStack(null)
                         .commit();
                 break;
         }

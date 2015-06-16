@@ -1,6 +1,8 @@
 package org.melky.geekjuniorapp;
 
 import android.app.Application;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.Tracker;
@@ -11,6 +13,7 @@ import java.util.HashMap;
  * Created by Administrador on 14/05/2015.
  */
 public class GoogleAnalyticsApp extends Application {
+    public static boolean googleAnalitic;
     // change the following line
     private static final String PROPERTY_ID = "UA-XXXXXXXX-X";
 

@@ -9,11 +9,12 @@
             android:title="@string/pref_analytic"
             android:summary="@string/pref_analytic_summ"
             android:defaultValue="true" />
-
+<!--
         <CheckBoxPreference
             android:key="pref_gcm"
             android:title="@string/pref_gcm"
             android:summary="@string/pref_gcm_summ"
             android:defaultValue="true" />
+-->
     </PreferenceCategory>
 </PreferenceScreen>

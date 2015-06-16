@@ -1,11 +1,14 @@
 package org.melky.geekjuniorapp;
 
+import android.app.Notification;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.google.android.gms.plus.PlusOneButton;
 
@@ -21,9 +24,32 @@ public class PlusOneGeekFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.plusonegeek_fragment, container,
                 false);
+        ImageView fb = (ImageView)rootView.findViewById(R.id.facebookbtm);
+        fb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/geekjunior"));
+                startActivity(myIntent);
+            }
+        });
 
-        p = (PlusOneButton) rootView.findViewById(R.id.plus_one_button);
-        p.initialize(URL,PLUS_ONE_REQUEST_CODE);
+        ImageView tw = (ImageView)rootView.findViewById(R.id.twitterbtm);
+        tw.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/geekjuniorfr"));
+                startActivity(myIntent);
+            }
+        });
+
+        ImageView gp = (ImageView)rootView.findViewById(R.id.googleplusbtm);
+        gp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://plus.google.com/+GeekjuniorFr/posts"));
+                startActivity(myIntent);
+            }
+        });
 
         return rootView;
     }
