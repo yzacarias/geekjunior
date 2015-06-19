@@ -15,7 +15,7 @@ import java.util.HashMap;
 public class GoogleAnalyticsApp extends Application {
     public static boolean googleAnalitic;
     // change the following line
-    private static final String PROPERTY_ID = "UA-62994104-2";
+    private static final String PROPERTY_ID = "XX-XXXXXXXX-X";
 
 
     public static int GENERAL_TRACKER = 0;
