@@ -7,9 +7,11 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -24,7 +26,6 @@ import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
 import java.util.List;
-import java.util.Map;
 
 
 public class GeekJunior extends AppCompatActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks{
@@ -105,13 +106,14 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
             // if the drawer is not showing. Otherwise, let the drawer
             // decide what to show in the action bar.
             getMenuInflater().inflate(R.menu.menu_geek_junior, menu);
-            //MenuItem searchItem = menu.findItem(R.id.action_example);
+            MenuItem searchItem = menu.findItem(R.id.action_example);
 
-           /* SearchView searchView = (SearchView) MenuItemCompat
+            SearchView searchView = (SearchView) MenuItemCompat
                     .getActionView(searchItem);
-            searchView.setOnQueryTextListener(new OnQueryTextListener() {
+            searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
                 @Override
                 public boolean onQueryTextSubmit(String arg0) {
+                    Toast.makeText(getApplicationContext(), arg0,Toast.LENGTH_SHORT).show();
                     return false;
                 }
 
@@ -119,7 +121,7 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
                 public boolean onQueryTextChange(String arg0) {
                     return false;
                 }
-            });*/
+            });
 
             restoreActionBar();
             return true;
