@@ -21,10 +21,24 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
         <activity android:name=".GeekPrefActivity"/>
 
-        <activity android:name=".GeekJunior"/>
+        <activity android:name=".GeekJunior"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+
+        <activity android:name=".GeekSearchableActivity" />
+
+        <provider android:name=".GeekDictionaryProvider"
+            android:authorities="com.example.android.searchabledict.GeekDictionaryProvider" />
 
         <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver"
             android:enabled="true">
@@ -43,6 +57,7 @@
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
         </receiver>
+
         <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
 
         <meta-data
@@ -52,6 +67,9 @@
         <meta-data
             android:name="com.google.android.gms.analytics.globalConfigResource"
             android:resource="@xml/global_tracker" />
+
+        <meta-data android:name="android.app.default_searchable"
+            android:value=".GeekJunior" />
 
     </application>
 </manifest>

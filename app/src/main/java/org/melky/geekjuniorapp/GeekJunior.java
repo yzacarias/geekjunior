@@ -1,6 +1,7 @@
 package org.melky.geekjuniorapp;
 
 
+import android.app.SearchManager;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -110,23 +111,41 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
 
             SearchView searchView = (SearchView) MenuItemCompat
                     .getActionView(searchItem);
-            searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+
+            SearchManager searchManager = (SearchManager) getSystemService(getApplicationContext().SEARCH_SERVICE);
+            searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+
+            /*searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
                 @Override
                 public boolean onQueryTextSubmit(String arg0) {
-                    Toast.makeText(getApplicationContext(), arg0,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), arg0, Toast.LENGTH_SHORT).show();
                     return false;
                 }
-
                 @Override
                 public boolean onQueryTextChange(String arg0) {
                     return false;
                 }
-            });
+            });*/
 
             restoreActionBar();
             return true;
         }
         return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        handleIntent(intent);
+    }
+
+    private void handleIntent(Intent intent) {
+        if (Intent.ACTION_VIEW.equals(intent.getAction())) {
+            // handles a click on a search suggestion; launches activity to show word
+
+        } else if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
+            // handles a search query
+            String query = intent.getStringExtra(SearchManager.QUERY);
+        }
     }
 
     public void restoreActionBar() {

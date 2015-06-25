@@ -1,0 +1,991 @@
+#Museumweek -- museumweek
+#NDM15 -- ndm15
+#SpaceGeo -- spacegeo
+1Button -- 1button
+1mnLate -- 1mnlate
+1Password -- 1password
+2048 -- 2048
+94 degr\u00e9s -- 94-degres
+94 secondes -- 94-secondes
+94% -- 94
+abonnement -- abonnement
+Actialuna -- actialuna
+Actualit\u00e9 -- actualite
+addiction -- addiction
+Adidas -- adidas
+Adobe -- adobe
+Adobe Clip -- adobe-clip
+Adobe Premiere -- adobe-premiere
+Adobe Voice -- adobe-voice
+adventure time -- adventure-time
+advertising -- advertising
+adware -- adware
+Afterclasse -- afterclasse
+Age of Sparta -- age-of-sparta
+Agent Alice -- agent-alice
+aide -- aide
+Akira Toriyama -- akira-toriyama
+Alastair Reynolds -- alastair-reynolds
+AlphaBetty Saga -- alphabetty-saga
+Amiibo -- amiibo
+ampoule -- ampoule
+Android -- android
+Anglais -- anglais
+Angry Birds -- angry-birds
+Angry Birds Fight -- angry-birds-fight
+animaux -- animaux
+Anna Todd -- anna-todd
+Annabac -- annabac
+annales -- annales
+anniversaire -- anniversaire
+Anno -- anno
+Anno 2205 -- anno-2205
+annuler -- annuler
+Another World -- another-world
+APB -- apb
+APC 2015 -- apc-2015
+app gratuite -- app-gratuite
+App Store -- app-store
+app-enfant -- app-enfant
+appel vid\u00e9o -- appel-video
+appel vocal -- appel-vocal
+Apple Watch -- apple-watch
+appli -- appli
+application -- application
+application Android -- application-android
+application \u00e9ducative -- application-educative
+application iOS -- application-ios
+application iPad -- application-ipad
+application iPhone -- application-iphone
+application PC -- application-pc
+application photo -- application-photo
+application scolaire -- application-scolaire
+application vid\u00e9o -- application-video
+apprendre -- apprendre
+apprentissage -- apprentissage
+AR -- ar
+arcade -- arcade
+archive.org -- archive-org
+Ard\u00e8che -- ardeche
+art urbain -- art-urbain
+Arte -- arte
+Asteroid Data Hunter -- asteroid-data-hunter
+ast\u00e9ro\u00efdes -- asteroides
+astronomie -- astronomie
+astuce -- astuce
+astuces -- astuces
+autocollant -- autocollant
+Autodesk -- autodesk
+autopublication -- autopublication
+AutoRap -- autorap
+Auxy Beat Studio -- auxy-beat-studio
+Avatar -- avatar
+Avengers -- avengers
+AwoX StriimLIGHT color -- awox-striimlight-color
+bac -- bac
+bac 2015 -- bac-2015
+Bac Histoire -- bac-histoire
+Baccalaur\u00e9at -- baccalaureat
+baccalaur\u00e9at 2015 -- baccalaureat-2015
+balle -- balle
+bande-annonce -- bande-annonce
+bashing -- bashing
+basket -- basket
+basket-ball -- basket-ball
+Batman -- batman
+BBC -- bbc
+bd -- bd
+Beacon -- beacon
+BeeBot -- beebot
+Bejeweled -- bejeweled
+Beneylu Quest -- beneylu-quest
+Benzaie -- benzaie
+Bertrand Kopf -- bertrand-kopf
+Bescherelle -- bescherelle
+Bikini Bottom -- bikini-bottom
+Bing -- bing
+biologie -- biologie
+Bistrips -- bistrips
+Bitmoji -- bitmoji
+Blades of Brim -- blades-of-brim
+Blockwick 2 -- blockwick-2
+Blood and Glory Immortals -- blood-and-glory-immortals
+Bloons TD 5 -- bloons-td-5
+BMW -- bmw
+bob l'\u00e9ponge -- bob-leponge
+Bob Lennon -- bob-lennon
+Bod l'\u00e9ponge -- bod-leponge
+Boom Dots -- boom-dots
+Bouncing Ball -- bouncing-ball
+box -- box
+bracelet connect\u00e9 -- bracelet-connecte
+brahimovic -- brahimovic
+brevet -- brevet
+brevet des coll\u00e8ges -- brevet-des-colleges
+Brice Duan -- brice-duan
+Bridge Constructor -- bridge-constructor
+Britney Spears -- britney-spears
+Bubble Witch -- bubble-witch
+buggy -- buggy
+BulkyPix -- bulkypix
+Butterscotch Shenanigans -- butterscotch-shenanigans
+buzz -- buzz
+C'est pas sorcier -- cest-pas-sorcier
+cahier de vacances -- cahier-de-vacances
+calcul mental -- calcul-mental
+cam\u00e9ra -- camera
+Candy Crush -- candy-crush
+cap maths -- cap-maths
+Capitaine Maths -- capitaine-maths
+capteur d'activit\u00e9 -- capteur-dactivite
+Cardboard -- cardboard
+Carmen -- carmen
+carte -- carte
+Cartoo Network -- cartoo-network
+casque -- casque
+casse-t\u00eate -- casse-tete
+casual game -- casual-game
+catch -- catch
+Catstacam -- catstacam
+Cendrillon -- cendrillon
+CGU -- cgu
+cha\u00eene YouTube -- chaine-youtube
+chanson -- chanson
+Charlie -- charlie
+Charlie Hebdo -- charlie-hebdo
+chat -- chat
+chatter -- chatter
+cheval de troie -- cheval-de-troie
+chimie -- chimie
+Chocolapps -- chocolapps
+chocoloapps -- chocoloapps
+Chrome -- chrome
+Cinefix -- cinefix
+cin\u00e9ma -- cinema
+cities skylines -- cities-skylines
+Clash of Clans -- clash-of-clans
+Clean Master -- clean-master
+code -- code
+code de la route -- code-de-la-route
+code promo -- code-promo
+Code Studio -- code-studio
+CodeCombat -- codecombat
+coder -- coder
+coffeescript -- coffeescript
+coll\u00e8ge -- college
+combat -- combat
+comic -- comic
+compatibilit\u00e9 -- compatibilite
+compte YouTube -- compte-youtube
+concentration -- concentration
+concours -- concours
+confidentialit\u00e9 -- confidentialite
+conjugaison -- conjugaison
+ConnectDrive -- connectdrive
+conseil -- conseil
+conseils -- conseils
+conservation priv\u00e9e -- conservation-privee
+console -- console
+construction -- construction
+cookie -- cookie
+Cooking Dash -- cooking-dash
+cop21 -- cop21
+Cord -- cord
+Corrodor Z -- corrodor-z
+Cortana -- cortana
+Coureo -- coureo
+cours en ligne -- cours-en-ligne
+course de voiture -- course-de-voiture
+course de voitures -- course-de-voitures
+Cristiano Ronaldo -- cristiano-ronaldo
+culture -- culture
+culture geek -- culture-geek
+culture g\u00e9n\u00e9rale -- culture-generale
+Cut the Rope -- cut-the-rope
+cyberharc\u00e8lement -- cyberharcelement
+Cyprien -- cyprien
+Dark Vador -- dark-vador
+Dashlane -- dashlane
+data -- data
+DataRmine -- datarmine
+David Luiz -- david-luiz
+Dead Space -- dead-space
+Deezer -- deezer
+d\u00e9mo -- demo
+dessin anim\u00e9 -- dessin-anime
+Deutsche Telekom -- deutsche-telekom
+devoir -- devoir
+DICE -- dice
+dico -- dico
+dictionnaire -- dictionnaire
+diffamation -- diffamation
+digischool -- digischool
+digital native -- digital-native
+dinosaure -- dinosaure
+Disney -- disney
+Disney Infinity -- disney-infinity
+Do Not Track -- do-not-track
+DomiNations -- dominations
+Donkey Kong -- donkey-kong
+donn\u00e9es personnelles -- donnees-personnelles
+Doodle -- doodle
+double authentification -- double-authentification
+Double Dragon Trilogy -- double-dragon-trilogy
+dragon -- dragon
+Dragon Ball -- dragon-ball
+Dragon Ball Super -- dragon-ball-super
+Dragon Ball Z -- dragon-ball-z
+Dragon Mania Legend -- dragon-mania-legend
+Driver -- driver
+dubsmash -- dubsmash
+DuckDuckGo -- duckduckgo
+e-enfance -- e-enfance
+e-mail -- e-mail
+E-penser -- e-penser
+E3 -- e3
+EA -- ea
+Earn to Die -- earn-to-die
+\u00e9clipse partielle -- eclipse-partielle
+eclipse simulator -- eclipse-simulator
+\u00e9clipse solaire -- eclipse-solaire
+\u00e9cologie -- ecologie
+ecosia -- ecosia
+\u00e9ducation -- education
+\u00e9ducation num\u00e9rique -- education-numerique
+\u00e9ducations -- educations
+Educscore -- educscore
+eduPad -- edupad
+EduQuest -- eduquest
+Electronic Arts -- electronic-arts
+email -- email
+emoji -- emoji
+\u00e9motic\u00f4ne -- emoticone
+encyclop\u00e9die -- encyclopedie
+Endless Racer -- endless-racer
+\u00e9ph\u00e9m\u00e8re -- ephemere
+Epic Browser -- epic-browser
+\u00e9quation -- equation
+espace -- espace
+\u00e9tude -- etude
+\u00e9tudiant -- etudiant
+Everest -- everest
+examen -- examen
+Excel -- excel
+expression -- expression
+extension -- extension
+Eyrolles -- eyrolles
+facebook -- facebook
+Facebook Lite -- facebook-lite
+Facebook Messenger -- facebook-messenger
+Fallout -- fallout
+Fallout 4 -- fallout-4
+Fallout Shelter -- fallout-shelter
+fantasy -- fantasy
+fantomelle -- fantomelle
+fant\u00f4mette -- fantomette
+Farming Simulator -- farming-simulator
+Fast &amp; Furious -- fast-furious
+Feedly -- feedly
+festival -- festival
+fiche de r\u00e9vision -- fiche-de-revision
+FIDL -- fidl
+FIFA -- fifa
+FIFA 16 -- fifa-16
+figurine -- figurine
+figurines connect\u00e9es -- figurines-connectees
+film -- film
+filtre -- filtre
+Final Fantasy VII -- final-fantasy-vii
+FinalFeature -- finalfeature
+financement participatif -- financement-participatif
+Firefox -- firefox
+Fisk -- fisk
+Fist of Fury -- fist-of-fury
+Flappy Bird -- flappy-bird
+flipper -- flipper
+Flop Rocket -- flop-rocket
+football -- football
+Forest -- forest
+forfait Internet -- forfait-internet
+formation -- formation
+FPS -- fps
+Framasoft -- framasoft
+France T\u00e9l\u00e9visions -- france-televisions
+FranceTV -- francetv
+FranceTV \u00e9ducations -- francetv-educations
+Fran\u00e7ois Ier -- francois-ier
+Fred et Jamy -- fred-et-jamy
+Frigiel -- frigiel
+Frodon Sacquet -- frodon-sacquet
+Frozen -- frozen
+Futur en Seine -- futur-en-seine
+gadget -- gadget
+Galacticraft -- galacticraft
+Galaxy S6 -- galaxy-s6
+Game Of Thrones -- game-of-thrones
+Gameband -- gameband
+Gameloft -- gameloft
+games of thrones -- games-of-thrones
+Gaming Live -- gaming-live
+Gardiens de la Galaxie -- gardiens-de-la-galaxie
+Geek -- geek
+geekopolis -- geekopolis
+GeoChampion -- geochampion
+G\u00e9ographie -- geographie
+GeoKids -- geokids
+g\u00e9olocalisation -- geolocalisation
+G\u00e9om\u00e9trie -- geometrie
+George R.R. Martin -- george-r-r-martin
+GIF -- gif
+GIF anim\u00e9 -- gif-anime
+Gigys -- gigys
+Glozzle -- glozzle
+Glu -- glu
+Gmail -- gmail
+Google -- google
+Google CardBoard -- google-cardboard
+Google Chrome -- google-chrome
+Google Glass -- google-glass
+Google I\/O -- google-io
+Google Maps -- google-maps
+Google Photos -- google-photos
+Google Photos Backpup -- google-photos-backpup
+Google Play -- google-play
+Google Play Musique -- google-play-musique
+Google Street View -- google-street-view
+Googlinette -- googlinette
+GoPro -- gopro
+Gossip -- gossip
+graffiti -- graffiti
+grandes Grandes Vacances -- grandes-grandes-vacances
+Grille-pain -- grille-pain
+Grotte Chauvet -- grotte-chauvet
+Guerre des \u00e9toiles -- guerre-des-etoiles
+Gulli -- gulli
+GulliMax -- gullimax
+Hachette -- hachette
+Halo -- halo
+Ha -- halo-spartan
+Happymagenta -- happymagenta
+Harc\u00e8lement -- harcelement
+harry potter -- harry-potter
+Hasbro -- hasbro
+HearthStone Heroes of Warcraft -- hearthstone-heroes-of-warcraft
+Histoire -- histoire
+histoire de france -- histoire-de-france
+histoire interactive -- histoire-interactive
+Histoire par l'image -- histoire-par-limage
+HistoQuizz -- histoquizz
+historique de recherche -- historique-de-recherche
+Hololens -- hololens
+Hook -- hook
+HTC -- htc
+Huawei -- huawei
+Hugo D\u00e9lire -- hugo-delire
+Hulk Hogan -- hulk-hogan
+Humble Bundle -- humble-bundle
+humour -- humour
+I'm Not OK -- im-not-ok
+Ian Berstein -- ian-berstein
+iCahier -- icahier
+Ice GeoAlert -- ice-geoalert
+illustration -- illustration
+image -- image
+Immortals -- immortals
+impression 3D -- impression-3d
+informaitique -- informaitique
+Instaclass -- instaclass
+Instagram -- instagram
+Instant -- instant
+Instaport -- instaport
+Institut du monde arabe -- institut-du-monde-arabe
+Interlingua English School -- interlingua-english-school
+Internet -- internet
+Internet Explorer -- internet-explorer
+Internet mobile -- internet-mobile
+iOS -- ios
+iPad -- ipad
+iPhone -- iphone
+ISS -- iss
+iTooch -- itooch
+Ixquick -- ixquick
+Jelly Jump -- jelly-jump
+jeu -- jeu
+jeu Android -- jeu-android
+jeu collaboratif -- jeu-collaboratif
+jeu connect\u00e9 -- jeu-connecte
+jeu d'action -- jeu-daction
+jeu d'arcade -- jeu-darcade
+jeu d'aventure -- jeu-daventure
+jeu d'objets cach\u00e9s -- jeu-dobjets-caches
+jeu de casse-t\u00eate -- jeu-de-casse-tete
+jeu de combats -- jeu-de-combats
+jeu de course -- jeu-de-course
+jeu de football -- jeu-de-football
+jeu de gestion -- jeu-de-gestion
+jeu de gestion de ressource -- jeu-de-gestion-de-ressource
+jeu de m\u00e9mo -- jeu-de-memo
+jeu de plateforme -- jeu-de-plateforme
+jeu de puzzle -- jeu-de-puzzle
+jeu de quiz -- jeu-de-quiz
+jeu de r\u00e9flexion -- jeu-de-reflexion
+jeu de r\u00f4le -- jeu-de-role
+jeu de skate -- jeu-de-skate
+jeu de soci\u00e9t\u00e9 -- jeu-de-societe
+jeu de strat\u00e9gie -- jeu-de-strategie
+jeu de tir -- jeu-de-tir
+jeu \u00e9ducatif -- jeu-educatif
+jeu ind\u00e9pendant -- jeu-independant
+jeu iOS -- jeu-ios
+jeu iPad -- jeu-ipad
+jeu iPhone -- jeu-iphone
+jeu Lego -- jeu-lego
+jeu Mac -- jeu-mac
+jeu mobile -- jeu-mobile
+jeu PC -- jeu-pc
+jeu PS4 -- jeu-ps4
+jeu vid\u00e9o -- jeu-video
+jeu web -- jeu-web
+jeu Windows -- jeu-windows
+jeu Xbox -- jeu-xbox
+jeux -- jeux
+jeux Android -- jeux-android
+jeux de course -- jeux-de-course
+jeux iPad -- jeux-ipad
+jeux iphone -- jeux-iphone
+jeux-video -- jeux-video
+Jigm\u00e9 -- jigme
+John Cena -- john-cena
+Jolly Jam -- jolly-jam
+Jony Ive -- jony-ive
+jouer -- jouer
+jouet -- jouet
+Jour de la Terre -- jour-de-la-terre
+journ\u00e9e mondiale -- journee-mondiale
+Joyn -- joyn
+Julien Josselin -- julien-josselin
+Jurassic Park -- jurassic-park
+Jurassic World -- jurassic-world
+Kalkulilo -- kalkulilo
+karaok\u00e9 -- karaoke
+Kartable -- kartable
+Kate Perry -- kate-perry
+Kato -- kato
+Katy Perry -- katy-perry
+Kenneth Branagh -- kenneth-branagh
+Ketchapp -- ketchapp
+Kev Adams -- kev-adams
+keynote -- keynote
+kickstarter -- kickstarter
+Kim Kardashian -- kim-kardashian
+Kim Kardashian Hollywood -- kim-kardashian-hollywood
+King -- king
+King of Thieves -- king-of-thieves
+KissKissBangBang -- kisskissbangbang
+Konami -- konami
+Kovacic's Mod Pack -- kovacics-mod-pack
+L'\u00c2ge de Glace -- lage-de-glace
+L'Etudiant -- letudiant
+La Reine des Neiges -- la-reine-des-neiges
+La Terre du Milieu -- la-terre-du-milieu
+Lara Croft -- lara-croft
+Larousse -- larousse
+Larousse 2016 -- larousse-2016
+LastPass -- lastpass
+Layout -- layout
+Le Seigneur des Anneaux -- le-seigneur-des-anneaux
+Le Vlog de la blas\u00e9e -- le-vlog-de-la-blasee
+lecture -- lecture
+Lego -- lego
+Lego Dimensions -- lego-dimensions
+Lego Jurassic World -- lego-jurassic-world
+Lego le film -- lego-le-film
+Lego Mindstorms -- lego-mindstorms
+Lego Ninjago -- lego-ninjago
+Lego Worlds -- lego-worlds
+Les Incollables -- les-incollables
+Les Simpsons -- les-simpsons
+Leveldown -- leveldown
+lexique geek -- lexique-geek
+Libert\u00e9 -- liberte
+librairie -- librairie
+Lightbeam -- lightbeam
+Limbo -- limbo
+Line -- line
+Links The Sun -- links-the-sun
+livre -- livre
+logiciel -- logiciel
+logiciel libre -- logiciel-libre
+logiciel malveillant -- logiciel-malveillant
+lolcat -- lolcat
+ludo-\u00e9ducatif -- ludo-educatif
+Lumia -- lumia
+lunette -- lunette
+lyc\u00e9e -- lycee
+lyc\u00e9een -- lyceeen
+lyc\u00e9en -- lyceen
+Lyricstraining -- lyricstraining
+L\u2019\u00c2ge de Glace Avalanche -- lage-de-glace-avalanche
+Ma Moyenne -- ma-moyenne
+mac -- mac
+Mad Max -- mad-max
+Mad Max Fury Road -- mad-max-fury-road
+Magic' Cr\u00e9ateur Adventure Time -- magic-createur-adventure-time
+Mal\u00e9fique -- malefique
+malware -- malware
+manga -- manga
+Mario -- mario
+Mario Kart -- mario-kart
+Mark Crosby -- mark-crosby
+Martin Handford -- martin-handford
+marvel -- marvel
+Marvel future fight -- marvel-future-fight
+Marvel Mighty Heroes -- marvel-mighty-heroes
+Match-3 -- match-3
+Mathador -- mathador
+math\u00e9matique -- mathematique
+math\u00e9matiques -- mathematiques
+maths -- maths
+Mattel -- mattel
+Matuidi -- matuidi
+Maxi18 -- maxi18
+Maxthon Cloud -- maxthon-cloud
+Maya l'Abeille -- maya-labeille
+Meccano -- meccano
+Meccanoid -- meccanoid
+Medelia -- medelia
+Meerkat -- meerkat
+Meowlingual -- meowlingual
+message priv\u00e9 -- message-prive
+message priv\u00e9e -- message-privee
+messagerie -- messagerie
+messagerie instantan\u00e9e -- messagerie-instantanee
+messagerie vocale -- messagerie-vocale
+Messenger -- messenger
+Metabot -- metabot
+m\u00e9tier -- metier
+m\u00e9tiers -- metiers
+MicMaths -- micmaths
+Microsoft -- microsoft
+Midori -- midori
+Millenaire -- millenaire
+Millenium -- millenium
+Minecraft -- minecraft
+minecraft 2015 -- minecraft-2015
+Minecraft pocket edition -- minecraft-pocket-edition
+Mini Racing Adventures -- mini-racing-adventures
+minicours -- minicours
+minicours.com -- minicours-com
+Mirobot -- mirobot
+mise \u00e0 jour -- mise-a-jour
+Mister Selfie -- mister-selfie
+MMO -- mmo
+MMOG -- mmog
+MNHN -- mnhn
+Mobibac -- mobibac
+mobiBrevet -- mobibrevet
+Mobile World Congress -- mobile-world-congress
+mod -- mod
+mod 2015 -- mod-2015
+Mojang -- mojang
+Moment -- moment
+MomentCam -- momentcam
+Moments -- moments
+Mon Compte -- mon-compte
+montage vid\u00e9o -- montage-video
+montre connct\u00e9e -- montre-connctee
+montre connect\u00e9e -- montre-connectee
+Monument Valley -- monument-valley
+Mooc -- mooc
+mot de passe -- mot-de-passe
+moteur de recherche -- moteur-de-recherche
+Motorsport Manager -- motorsport-manager
+mots m\u00eal\u00e9s -- mots-meles
+Mozilla -- mozilla
+MP -- mp
+Mr Jump -- mr-jump
+ms-dos -- ms-dos
+MSN -- msn
+multiplication -- multiplication
+mus\u00e9e -- musee
+musique -- musique
+MWC -- mwc
+MyIdol -- myidol
+Mykidio -- mykidio
+NASA -- nasa
+navigateur -- navigateur
+NBA -- nba
+NBA Game Time -- nba-game-time
+NBA Jam -- nba-jam
+Need for Speed -- need-for-speed
+Need for Speed Most Wanted -- need-for-speed-most-wanted
+Need For Speed No Limits -- need-for-speed-no-limits
+Netflix -- netflix
+nettoyage -- nettoyage
+nettoyer android -- nettoyer-android
+News -- news
+Neymar Junior -- neymar-junior
+Nike -- nike
+ninja -- ninja
+Nintendo -- nintendo
+Nintendo 3DS -- nintendo-3ds
+No Man's Sky -- no-mans-sky
+Now Computing -- now-computing
+Nuit des Mus\u00e9es -- nuit-des-musees
+numerique -- numerique
+Nvidia -- nvidia
+Obama -- obama
+object -- object
+objet connect\u00e9 -- objet-connecte
+objets cach\u00e9s -- objets-caches
+Oculus Rift -- oculus-rift
+Oddwings Escape -- oddwings-escape
+off-shore -- off-shore
+Office -- office
+Office gratuit -- office-gratuit
+offre -- offre
+Ogaming -- ogaming
+Old republic -- old-republic
+Ollie -- ollie
+OMG -- omg
+On this day -- on-this-day
+ONISEP -- onisep
+Open Culture -- open-culture
+Opera -- opera
+Orange -- orange
+Orbotix -- orbotix
+organisme de formation -- organisme-de-formation
+Ori and the Blind Forest -- ori-and-the-blind-forest
+orientation -- orientation
+Origin -- origin
+orthographe -- orthographe
+Osmo -- osmo
+Ozobot -- ozobot
+PacMan -- pacman
+pal\u00e9ontologie -- paleontologie
+Paris -- paris
+Paris manga -- paris-manga
+Paris Saint-Germain -- paris-saint-germain
+parodie -- parodie
+partage de photos -- partage-de-photos
+Passeport -- passeport
+password -- password
+Pat la r\u00e9alisation -- pat-la-realisation
+Patchmania -- patchmania
+Paul Robertson -- paul-robertson
+PC -- pc
+p\u00e9dagogie -- pedagogie
+peinture -- peinture
+Periscope -- periscope
+permis de conduire -- permis-de-conduire
+PES -- pes
+PES 2016 -- pes-2016
+PES Club Manager -- pes-club-manager
+photo -- photo
+photographie -- photographie
+photomath -- photomath
+photomontage -- photomontage
+physique -- physique
+Pili Pop -- pili-pop
+Pinball Sniper -- pinball-sniper
+Pixar -- pixar
+Pixel Art -- pixel-art
+plateforme -- plateforme
+plateforme web -- plateforme-web
+Play Station -- play-station
+PlayBac -- playbac
+playback -- playback
+Playmotion -- playmotion
+PlayStation -- playstation
+Pleek -- pleek
+poisson d'avril -- poisson-davril
+Pok\u00e9mon -- pokemon
+Pok\u00e9mon Shuffle -- pokemon-shuffle
+post-bac -- post-bac
+Powerpoint -- powerpoint
+pr\u00e9histoire -- prehistoire
+pr\u00e9pa -- prepa
+pr\u00e9paration -- preparation
+primaire -- primaire
+Primo -- primo
+Prince of Persia Shadow &amp; Flame -- prince-of-persia-shadow-flame
+privacy -- privacy
+privay -- privay
+professeur Layton -- professeur-layton
+programmation -- programmation
+programme -- programme
+programme scolaire -- programme-scolaire
+Projet Voltaire -- projet-voltaire
+Promotion -- promotion
+protection -- protection
+PS4 -- ps4
+PSG -- psg
+publicit\u00e9 -- publicite
+Pure Luge -- pure-luge
+puzzle -- puzzle
+puzzle game -- puzzle-game
+Puzzle Pets -- puzzle-pets
+Python -- python
+Qantara -- qantara
+quantified self -- quantified-self
+Quelle Histoire -- quelle-histoire
+Quetzalcoatl -- quetzalcoatl
+quiz -- quiz
+quiz musical -- quiz-musical
+quizz -- quizz
+Qwant -- qwant
+Qwant Junior -- qwant-junior
+r -- r
+R-Type -- r-type
+Raiden Legacy -- raiden-legacy
+Ransomware -- ransomware
+rap -- rap
+Rayman Fiesta Run -- rayman-fiesta-run
+Real Steel Champions -- real-steel-champions
+r\u00e9alit\u00e9 augment\u00e9e -- realite-augmentee
+r\u00e9alit\u00e9 virtuelle -- realite-virtuelle
+recherche -- recherche
+reconnaissance vocale -- reconnaissance-vocale
+r\u00e9seau social -- reseau-social
+r\u00e9seaux sociaux -- reseaux-sociaux
+Respirelax -- respirelax
+retouche photo -- retouche-photo
+retrogaming -- retrogaming
+Retry -- retry
+retweet -- retweet
+r\u00e9vision -- revision
+r\u00e9vision Bac -- revision-bac
+r\u00e9vision Brevet -- revision-brevet
+Riff -- riff
+Rise Against The Empire -- rise-against-the-empire
+Risk -- risk
+robot -- robot
+robotiique -- robotiique
+robotique -- robotique
+Rock On -- rock-on
+rocket cards -- rocket-cards
+Rocket Cars -- rocket-cars
+Roland-Garros -- roland-garros
+Rovio -- rovio
+RPG -- rpg
+Run Bird Run -- run-bird-run
+run quiz -- run-quiz
+Runner Games -- runner-games
+running game -- running-game
+Rushin' Paris -- rushin-paris
+Safari -- safari
+Safer Internet Day -- safer-internet-day
+Safety Center -- safety-center
+salon -- salon
+Samsung -- samsung
+sandbox -- sandbox
+sauvegarde -- sauvegarde
+scareware -- scareware
+School of Magic -- school-of-magic
+Schoolmouv -- schoolmouv
+science -- science
+sciences -- sciences
+Scimob -- scimob
+Scott Kelly -- scott-kelly
+Scratch -- scratch
+Scribbler -- scribbler
+Season Panic -- season-panic
+secours -- secours
+s\u00e9curit\u00e9 -- securite
+selfie -- selfie
+Sequencity -- sequencity
+s\u00e9rie anim\u00e9e -- serie-animee
+serious game -- serious-game
+Seth Bling -- seth-bling
+SFR -- sfr
+Shield -- shield
+SimCity -- simcity
+Simona Bonafini -- simona-bonafini
+simulateur -- simulateur
+simulateur agricole -- simulateur-agricole
+simulateur de vol -- simulateur-de-vol
+simulation -- simulation
+simulation spatiale -- simulation-spatiale
+Siphano -- siphano
+Sketchman -- sketchman
+skin Minecraft -- skin-minecraft
+Sky Punks -- sky-punks
+Sky Streaker -- sky-streaker
+Skylanders -- skylanders
+Skype -- skype
+Skype translator -- skype-translator
+skype web -- skype-web
+SlimCricket -- slimcricket
+Small Giant Games -- small-giant-games
+smartphone -- smartphone
+smartwatch -- smartwatch
+Smash Bros -- smash-bros
+SMS -- sms
+SMS surtax\u00e9s -- sms-surtaxes
+snapchat -- snapchat
+snaps -- snaps
+snapschool -- snapschool
+Snapseed -- snapseed
+sneakers -- sneakers
+SNKRS -- snkrs
+Son Gok\u00fb -- son-goku
+sondage -- sondage
+Song Pop -- song-pop
+SongeBob -- songebob
+Sony -- sony
+Spaceteam -- spaceteam
+Sphero -- sphero
+Spider-man -- spider-man
+Spin Master -- spin-master
+Spirit Lords -- spirit-lords
+splashdata -- splashdata
+Splatoon -- splatoon
+Spongebob -- spongebob
+Spotify -- spotify
+Spotify running -- spotify-running
+spyware -- spyware
+Squeezie -- squeezie
+Star Citizen -- star-citizen
+Star Wars -- star-wars
+Star Wars BattleFront -- star-wars-battlefront
+Star Wars Rebels -- star-wars-rebels
+station spatiale -- station-spatiale
+Steam -- steam
+steaming -- steaming
+sticker -- sticker
+stickered -- stickered
+stockage -- stockage
+strat\u00e9gie -- strategie
+streaming -- streaming
+streaming live -- streaming-live
+street art -- street-art
+streetwear -- streetwear
+stress -- stress
+Stress Baal -- stress-baal
+Stromae -- stromae
+StudIn -- studin
+studio application -- studio-application
+Study Quizz -- study-quizz
+Stupidizer -- stupidizer
+Subway Surfers -- subway-surfers
+SUP3R KONAR -- sup3r-konar
+Super Mario 64 HD -- super-mario-64-hd
+Super Mario World -- super-mario-world
+super-h\u00e9ros -- super-heros
+SVOD -- svod
+tablette -- tablette
+Take on Mars -- take-on-mars
+TechDays -- techdays
+technologie -- technologie
+Ted the Jumper -- ted-the-jumper
+t\u00e9l\u00e9phone mobile -- telephone-mobile
+t\u00e9l\u00e9phonie -- telephonie
+Temple Run -- temple-run
+tennis -- tennis
+Terrabilis -- terrabilis
+Terraria -- terraria
+test -- test
+test application -- test-application
+test d'anglais -- test-danglais
+Tetris -- tetris
+TFou -- tfou
+TFou Max -- tfou-max
+ThaMographe -- thamographe
+The Amazing Spider Man 2 -- the-amazing-spider-man-2
+The Bella Twins -- the-bella-twins
+The Crew -- the-crew
+The Dark Knight rises -- the-dark-knight-rises
+The Great Suspender -- the-great-suspender
+The Last Guardian -- the-last-guardian
+The Lego movie video game -- the-lego-movie-video-game
+The Line Zen -- the-line-zen
+The Rock -- the-rock
+The Room 2 -- the-room-2
+The Simpson -- the-simpson
+The Undertaker -- the-undertaker
+Thiago Silva -- thiago-silva
+Thymio -- thymio
+Thymio II -- thymio-ii
+Ti'Be -- tibe
+Ticatag -- ticatag
+TICE -- tice
+Tim Cook -- tim-cook
+Timefish -- timefish
+Toca Nature -- toca-nature
+Tomb Raider -- tomb-raider
+Tor Browser -- tor-browser
+Toyotaro -- toyotaro
+TPE -- tpe
+tracking -- tracking
+traducteur -- traducteur
+traduction -- traduction
+trailer -- trailer
+Tralalere -- tralalere
+Triple H -- triple-h
+truc -- truc
+tutoriel -- tutoriel
+Twitch -- twitch
+Twitter -- twitter
+Ubisoft -- ubisoft
+uchroniques -- uchroniques
+ulule -- ulule
+unity -- unity
+Universcience.tv -- universcience-tv
+universit\u00e9 -- universite
+Unravel -- unravel
+Up You Go -- up-you-go
+update -- update
+urgence -- urgence
+utilitaire -- utilitaire
+ver informatique -- ver-informatique
+Viber -- viber
+Vice Media -- vice-media
+Vice-Versa -- vice-versa
+vid\u00e9o -- video
+vid\u00e9os -- videos
+vie priv\u00e9e -- vie-privee
+Vine -- vine
+Vine Kids -- vine-kids
+Virus -- virus
+visite virtuelle -- visite-virtuelle
+VOD -- vod
+voiture -- voiture
+Walking Dead -- walking-dead
+Warcraft -- warcraft
+Wattpad -- wattpad
+Wazasound -- wazasound
+web -- web
+web app -- web-app
+webtv -- webtv
+Wechat -- wechat
+WesterosCraft -- westeroscraft
+whatsapp -- whatsapp
+Whiskas -- whiskas
+Wii U -- wii-u
+wiki -- wiki
+Wikip\u00e9dia -- wikipedia
+Wiko -- wiko
+Windows -- windows
+Windows 10 -- windows-10
+Windows 8 -- windows-8
+windows nettoyer pc -- windows-nettoyer-pc
+Windows Phone -- windows-phone
+Wolverines -- wolverines
+Word -- word
+Word Academy -- word-academy
+Worms 3 -- worms-3
+WWE -- wwe
+WWE Immortals -- wwe-immortals
+Xbox -- xbox
+Xbox 360 -- xbox-360
+Xbox One -- xbox-one
+Xperia Z4 -- xperia-z4
+Yahoo -- yahoo
+Yandex -- yandex
+YouTube -- youtube
+YouTube Gaming -- youtube-gaming
+YouTube Kids -- youtube-kids
+youtuber -- youtuber
+Zelda -- zelda
+Z\u00e9ro Stress -- zero-stress
+Zigzag -- zigzag

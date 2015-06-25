@@ -98,4 +98,7 @@ Rafael Romero Sánchez (yzacarias@gmail.com)
 <p> </p>
 ]]>
     </string>
+    <string name="search_label">geekjunior</string>
+    <string name="search_hint">geekjunior</string>
+    <string name="settings_description">geekjunior</string>
 </resources>
