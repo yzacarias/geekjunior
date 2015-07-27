@@ -64,6 +64,7 @@ public class WebFragment extends Fragment {
 
 	@Override
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+		menu.removeItem(menu.getItem(0).getItemId());
 		super.onCreateOptionsMenu(menu, inflater);
 		inflater.inflate(R.menu.main_menu, menu);
 		MenuItem shareItem = menu.findItem(R.id.menu_share);

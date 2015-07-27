@@ -3,7 +3,9 @@ package org.melky.geekjuniorapp;
 
 import android.app.SearchManager;
 import android.content.Intent;
+import android.database.Cursor;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.FragmentManager;
@@ -45,6 +47,8 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
 
     private CharSequence mTitle;
 
+    private SearchView searchView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,14 +61,6 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
         }
 
         setContentView(R.layout.activity_geek_junior);
-
-        //ActionBar actionBar = getSupportActionBar();
-        //actionBar.setBackgroundDrawable(new ColorDrawable(0xFF8F00CC));
-        //actionBar.setTitle(R.string.ultimas_noticias);
-
-        //actionBar.setDisplayHomeAsUpEnabled(true);
-        //actionBar.setHomeButtonEnabled(true);
-
 
         Bundle b = getIntent().getExtras();
         String s = b.getString("posts");
@@ -84,14 +80,6 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
         mNavigationDrawerFragment.setUp(R.id.navigation_drawer,
         		(DrawerLayout) findViewById(R.id.drawer_layout));
 
-        /*
-        fragmentManager = getSupportFragmentManager();
-
-        fragmentManager.beginTransaction()
-                .replace(R.id.container, new GeekPostFragment())
-                .commit();
-        */
-
     }
 
     @Override
@@ -109,23 +97,26 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
             getMenuInflater().inflate(R.menu.menu_geek_junior, menu);
             MenuItem searchItem = menu.findItem(R.id.action_example);
 
-            SearchView searchView = (SearchView) MenuItemCompat
+            searchView = (SearchView) MenuItemCompat
                     .getActionView(searchItem);
 
             SearchManager searchManager = (SearchManager) getSystemService(getApplicationContext().SEARCH_SERVICE);
             searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
 
-            /*searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+
+            MenuItemCompat.setOnActionExpandListener(searchItem,
+                    new MenuItemCompat.OnActionExpandListener() {
                 @Override
-                public boolean onQueryTextSubmit(String arg0) {
-                    Toast.makeText(getApplicationContext(), arg0, Toast.LENGTH_SHORT).show();
-                    return false;
+                public boolean onMenuItemActionExpand(MenuItem item) {
+                    return true;
                 }
+
                 @Override
-                public boolean onQueryTextChange(String arg0) {
-                    return false;
+                public boolean onMenuItemActionCollapse(MenuItem item) {
+                    onBackPressed();
+                    return true;
                 }
-            });*/
+            });
 
             restoreActionBar();
             return true;
@@ -140,11 +131,38 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
 
     private void handleIntent(Intent intent) {
         if (Intent.ACTION_VIEW.equals(intent.getAction())) {
+            final FragmentManager fragmentManager = getSupportFragmentManager();
+            int i = fragmentManager.getBackStackEntryCount();
             // handles a click on a search suggestion; launches activity to show word
+            Uri uri = intent.getData();
+            Cursor cursor = managedQuery(uri, null, null, null, null);
+            cursor.moveToFirst();
+            int wIndex = cursor.getColumnIndexOrThrow(GeekDictionaryDatabase.KEY_WORD);
+            int dIndex = cursor.getColumnIndexOrThrow(GeekDictionaryDatabase.KEY_DEFINITION);
+
+            //Toast.makeText(this,cursor.getString(wIndex)+"--"+cursor.getString(dIndex),Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,R.string.ph_buscar,Toast.LENGTH_SHORT).show();
+
+            searchView.setQuery(cursor.getString(dIndex), true);
+
+            getJsonToFragment(cursor.getString(dIndex), "tag");
+
+            if(i==0) {
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.container, new PlaceholderFragment(17))
+                        .addToBackStack("PlaceholderFragment")
+                        .commit();
+            }else{
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.container, new PlaceholderFragment(17))
+                        .addToBackStack(null)
+                        .commit();
+            }
 
         } else if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
             // handles a search query
             String query = intent.getStringExtra(SearchManager.QUERY);
+            //do-nothing
         }
     }
 
@@ -183,12 +201,13 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
     public void onBackPressed() {
         final FragmentManager fragmentManager = getSupportFragmentManager();
         int i = fragmentManager.getBackStackEntryCount();
-        if (i==2) {
+        if (i==2 || !searchView.isIconified()) {
             fragmentManager.popBackStackImmediate("PlaceholderFragment", FragmentManager.POP_BACK_STACK_INCLUSIVE);
             mTitle = getString(R.string._header);
             restoreActionBar();
         }else {
-            super.onBackPressed();
+            if(searchView.isIconified())
+                super.onBackPressed();
         }
     }
 
@@ -223,98 +242,98 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
                         .commit();
                 break;
             case 2:
-                getJsonCategoryFragment("actualites");
+                getJsonToFragment("actualites","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 3:
-                getJsonCategoryFragment("applications");
+                getJsonToFragment("applications","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 4:
-                getJsonCategoryFragment("jeux-video");
+                getJsonToFragment("jeux-video","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 5:
-                getJsonCategoryFragment("etudes ");
+                getJsonToFragment("etudes","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 6:
-                getJsonCategoryFragment("astuces");
+                getJsonToFragment("astuces","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 7:
-                getJsonCategoryFragment("gadgets");
+                getJsonToFragment("gadgets","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 8:
-                getJsonCategoryFragment("videos");
+                getJsonToFragment("videos","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 9:
-                getJsonCategoryFragment("android");
+                getJsonToFragment("android","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 10:
-                getJsonCategoryFragment("iphone-ipad");
+                getJsonToFragment("iphone-ipad","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 11:
-                getJsonCategoryFragment("windows");
+                getJsonToFragment("windows","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 12:
-                getJsonCategoryFragment("xbox");
+                getJsonToFragment("xbox","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 13:
-                getJsonCategoryFragment("playstation");
+                getJsonToFragment("playstation","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 14:
-                getJsonCategoryFragment("wiiu");
+                getJsonToFragment("wiiu","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
                         .commit();
                 break;
             case 15:
-                getJsonCategoryFragment("web");
+                getJsonToFragment("web","category_name");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(position))
                         .addToBackStack("PlaceholderFragment")
@@ -340,8 +359,8 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
         onSectionAttached(position);
     }
 
-    private void getJsonCategoryFragment(String jsonCategory) {
-        StringRequest j = new StringRequest("http://www.geekjunior.fr/wp-json/posts?filter[category_name]="+jsonCategory, new Response.Listener<String>() {
+    private void getJsonToFragment(String jsonPropertie,String filter) {
+        StringRequest j = new StringRequest("http://www.geekjunior.fr/wp-json/posts?filter["+filter+"]="+jsonPropertie, new Response.Listener<String>() {
             @Override
             public void onResponse(String jsonArray) {
                 gson = new Gson();
@@ -419,6 +438,8 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
                 break;
             case 16:
                 mTitle = getString(R.string._footer);
+            case 17:
+                mTitle = getString(R.string.ph_buscar);
         }
     }
 }

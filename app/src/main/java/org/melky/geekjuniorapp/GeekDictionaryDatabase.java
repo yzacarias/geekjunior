@@ -208,7 +208,7 @@ public class GeekDictionaryDatabase {
             try {
                 String line;
                 while ((line = reader.readLine()) != null) {
-                    String[] strings = TextUtils.split(line, "-");
+                    String[] strings = TextUtils.split(line, "--");
                     if (strings.length < 2) continue;
                     long id = addWord(strings[0].trim(), strings[1].trim());
                     if (id < 0) {
