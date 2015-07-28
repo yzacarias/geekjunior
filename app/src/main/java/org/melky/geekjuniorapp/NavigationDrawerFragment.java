@@ -3,6 +3,7 @@ package org.melky.geekjuniorapp;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
@@ -171,7 +172,7 @@ public class NavigationDrawerFragment extends Fragment {
 		// showGlobalContextActionBar, which controls the top-left area of the
 		// action bar.
 		if (mDrawerLayout != null && isDrawerOpen()) {
-			inflater.inflate(R.menu.menu_geek_junior, menu);
+			//inflater.inflate(R.menu.menu_geek_junior, menu);
 			showGlobalContextActionBar();
 		}
 		super.onCreateOptionsMenu(menu, inflater);
@@ -220,6 +221,7 @@ public class NavigationDrawerFragment extends Fragment {
 		ActionBar actionBar = getActionBar();
 		actionBar.setDisplayHomeAsUpEnabled(true);
 		actionBar.setHomeButtonEnabled(true);
+		actionBar.setBackgroundDrawable(new ColorDrawable(0xFF8F00CC));
 
 		// ActionBarDrawerToggle ties together the the proper interactions
 		// between the navigation drawer and the action bar app icon.

@@ -21,7 +21,6 @@ adventure time -- adventure-time
 advertising -- advertising
 adware -- adware
 Afterclasse -- afterclasse
-Agar.io -- agar-io
 Age of Sparta -- age-of-sparta
 Agent Alice -- agent-alice
 aide -- aide
@@ -29,12 +28,10 @@ Akira Toriyama -- akira-toriyama
 Alastair Reynolds -- alastair-reynolds
 AlphaBetty Saga -- alphabetty-saga
 Amiibo -- amiibo
-amis facebook -- amis-facebook
 ampoule -- ampoule
 Android -- android
 Anglais -- anglais
 Angry Birds -- angry-birds
-Angry Birds 2 -- angry-birds-2
 Angry Birds Fight -- angry-birds-fight
 animaux -- animaux
 Anna Todd -- anna-todd
@@ -45,8 +42,6 @@ Anno -- anno
 Anno 2205 -- anno-2205
 annuler -- annuler
 Another World -- another-world
-Antoine Griezmann -- antoine-griezmann
-AP -- ap
 APB -- apb
 APC 2015 -- apc-2015
 app gratuite -- app-gratuite
@@ -54,8 +49,6 @@ App Store -- app-store
 app-enfant -- app-enfant
 appel vid\u00e9o -- appel-video
 appel vocal -- appel-vocal
-Apple -- apple
-Apple Music -- apple-music
 Apple Watch -- apple-watch
 appli -- appli
 application -- application
@@ -68,17 +61,14 @@ application PC -- application-pc
 application photo -- application-photo
 application scolaire -- application-scolaire
 application vid\u00e9o -- application-video
-application web -- application-web
 apprendre -- apprendre
 apprentissage -- apprentissage
-apprentissage du code -- apprentissage-du-code
 AR -- ar
 arcade -- arcade
 archive.org -- archive-org
 Ard\u00e8che -- ardeche
 art urbain -- art-urbain
 Arte -- arte
-ask.fm -- ask-fm
 Asteroid Data Hunter -- asteroid-data-hunter
 ast\u00e9ro\u00efdes -- asteroides
 astronomie -- astronomie
@@ -94,13 +84,7 @@ Avengers -- avengers
 AwoX StriimLIGHT color -- awox-striimlight-color
 bac -- bac
 bac 2015 -- bac-2015
-Bac de Fran\u00e7ais -- bac-de-francais
-Bac ES -- bac-es
 Bac Histoire -- bac-histoire
-Bac L -- bac-l
-Bac Philo -- bac-philo
-Bac S -- bac-s
-Bac techno -- bac-techno
 Baccalaur\u00e9at -- baccalaureat
 baccalaur\u00e9at 2015 -- baccalaureat-2015
 balle -- balle
@@ -111,12 +95,10 @@ basket-ball -- basket-ball
 Batman -- batman
 BBC -- bbc
 bd -- bd
-BD Manga -- bd-manga
 Beacon -- beacon
 BeeBot -- beebot
 Bejeweled -- bejeweled
 Beneylu Quest -- beneylu-quest
-Bento -- bento
 Benzaie -- benzaie
 Bertrand Kopf -- bertrand-kopf
 Bescherelle -- bescherelle
@@ -129,9 +111,7 @@ Blades of Brim -- blades-of-brim
 Blockwick 2 -- blockwick-2
 Blood and Glory Immortals -- blood-and-glory-immortals
 Bloons TD 5 -- bloons-td-5
-bluetooth -- bluetooth
 BMW -- bmw
-BNP PAribas -- bnp-paribas
 bob l'\u00e9ponge -- bob-leponge
 Bob Lennon -- bob-lennon
 Bod l'\u00e9ponge -- bod-leponge
@@ -141,14 +121,11 @@ box -- box
 bracelet connect\u00e9 -- bracelet-connecte
 brahimovic -- brahimovic
 brevet -- brevet
-Brevet 2015 -- brevet-2015
 brevet des coll\u00e8ges -- brevet-des-colleges
 Brice Duan -- brice-duan
 Bridge Constructor -- bridge-constructor
-British Movietone -- british-movietone
 Britney Spears -- britney-spears
 Bubble Witch -- bubble-witch
-Buddy -- buddy
 buggy -- buggy
 BulkyPix -- bulkypix
 Butterscotch Shenanigans -- butterscotch-shenanigans
@@ -157,7 +134,6 @@ C'est pas sorcier -- cest-pas-sorcier
 cahier de vacances -- cahier-de-vacances
 calcul mental -- calcul-mental
 cam\u00e9ra -- camera
-Campus Junior -- campus-junior
 Candy Crush -- candy-crush
 cap maths -- cap-maths
 Capitaine Maths -- capitaine-maths
@@ -172,7 +148,6 @@ casual game -- casual-game
 catch -- catch
 Catstacam -- catstacam
 Cendrillon -- cendrillon
-Centipede -- centipede
 CGU -- cgu
 cha\u00eene YouTube -- chaine-youtube
 chanson -- chanson
@@ -195,13 +170,11 @@ code de la route -- code-de-la-route
 code promo -- code-promo
 Code Studio -- code-studio
 CodeCombat -- codecombat
-Codemasters -- codemasters
 coder -- coder
 coffeescript -- coffeescript
 coll\u00e8ge -- college
 combat -- combat
 comic -- comic
-comics -- comics
 compatibilit\u00e9 -- compatibilite
 compte YouTube -- compte-youtube
 concentration -- concentration
@@ -222,7 +195,6 @@ Corrodor Z -- corrodor-z
 Cortana -- cortana
 Coureo -- coureo
 cours en ligne -- cours-en-ligne
-course de moto -- course-de-moto
 course de voiture -- course-de-voiture
 course de voitures -- course-de-voitures
 Cristiano Ronaldo -- cristiano-ronaldo
@@ -231,7 +203,6 @@ culture geek -- culture-geek
 culture g\u00e9n\u00e9rale -- culture-generale
 Cut the Rope -- cut-the-rope
 cyberharc\u00e8lement -- cyberharcelement
-cyclisme -- cyclisme
 Cyprien -- cyprien
 Dark Vador -- dark-vador
 Dashlane -- dashlane
@@ -249,7 +220,6 @@ dico -- dico
 dictionnaire -- dictionnaire
 diffamation -- diffamation
 digischool -- digischool
-Digital Comic Museum -- digital-comic-museum
 digital native -- digital-native
 dinosaure -- dinosaure
 Disney -- disney
@@ -261,7 +231,6 @@ donn\u00e9es personnelles -- donnees-personnelles
 Doodle -- doodle
 double authentification -- double-authentification
 Double Dragon Trilogy -- double-dragon-trilogy
-Downhill Riders -- downhill-riders
 dragon -- dragon
 Dragon Ball -- dragon-ball
 Dragon Ball Super -- dragon-ball-super
@@ -273,7 +242,6 @@ DuckDuckGo -- duckduckgo
 e-enfance -- e-enfance
 e-mail -- e-mail
 E-penser -- e-penser
-e-sport -- e-sport
 E3 -- e3
 EA -- ea
 Earn to Die -- earn-to-die
@@ -282,38 +250,30 @@ eclipse simulator -- eclipse-simulator
 \u00e9clipse solaire -- eclipse-solaire
 \u00e9cologie -- ecologie
 ecosia -- ecosia
-edtech -- edtech
 \u00e9ducation -- education
 \u00e9ducation num\u00e9rique -- education-numerique
 \u00e9ducations -- educations
 Educscore -- educscore
 eduPad -- edupad
 EduQuest -- eduquest
-Electronic Ars -- electronic-ars
 Electronic Arts -- electronic-arts
 email -- email
 emoji -- emoji
-emojis -- emojis
 \u00e9motic\u00f4ne -- emoticone
-enceinte -- enceinte
 encyclop\u00e9die -- encyclopedie
 Endless Racer -- endless-racer
 \u00e9ph\u00e9m\u00e8re -- ephemere
 Epic Browser -- epic-browser
 \u00e9quation -- equation
-Escape -- escape
 espace -- espace
 \u00e9tude -- etude
 \u00e9tudiant -- etudiant
 Everest -- everest
 examen -- examen
-Examens -- examens
 Excel -- excel
-exploration spatiale -- exploration-spatiale
 expression -- expression
 extension -- extension
 Eyrolles -- eyrolles
-F1 2015 -- f1-2015
 facebook -- facebook
 Facebook Lite -- facebook-lite
 Facebook Messenger -- facebook-messenger
@@ -323,22 +283,17 @@ Fallout Shelter -- fallout-shelter
 fantasy -- fantasy
 fantomelle -- fantomelle
 fant\u00f4mette -- fantomette
-FAQ -- faq
 Farming Simulator -- farming-simulator
 Fast &amp; Furious -- fast-furious
-Feeding Forward -- feeding-forward
 Feedly -- feedly
 festival -- festival
-F\u00eate du cin\u00e9ma -- fete-du-cinema
 fiche de r\u00e9vision -- fiche-de-revision
 FIDL -- fidl
 FIFA -- fifa
 FIFA 16 -- fifa-16
 figurine -- figurine
 figurines connect\u00e9es -- figurines-connectees
-fil d'actualit\u00e9 -- fil-dactualite
 film -- film
-film d'animation -- film-danimation
 filtre -- filtre
 Final Fantasy VII -- final-fantasy-vii
 FinalFeature -- finalfeature
@@ -353,7 +308,6 @@ football -- football
 Forest -- forest
 forfait Internet -- forfait-internet
 formation -- formation
-Formule 1 -- formule-1
 FPS -- fps
 Framasoft -- framasoft
 France T\u00e9l\u00e9visions -- france-televisions
@@ -363,23 +317,18 @@ Fran\u00e7ois Ier -- francois-ier
 Fred et Jamy -- fred-et-jamy
 Frigiel -- frigiel
 Frodon Sacquet -- frodon-sacquet
-Frogger -- frogger
 Frozen -- frozen
 Futur en Seine -- futur-en-seine
 gadget -- gadget
-gadget geek -- gadget-geek
 Galacticraft -- galacticraft
 Galaxy S6 -- galaxy-s6
-Galaxy Tab S2 -- galaxy-tab-s2
 Game Of Thrones -- game-of-thrones
 Gameband -- gameband
 Gameloft -- gameloft
 games of thrones -- games-of-thrones
 Gaming Live -- gaming-live
 Gardiens de la Galaxie -- gardiens-de-la-galaxie
-Gaumont Path\u00e9 -- gaumont-pathe
 Geek -- geek
-Geek Junior -- geek-junior
 geekopolis -- geekopolis
 GeoChampion -- geochampion
 G\u00e9ographie -- geographie
@@ -417,7 +366,6 @@ GulliMax -- gullimax
 Hachette -- hachette
 Halo -- halo
 Ha -- halo-spartan
-handicap -- handicap
 Happymagenta -- happymagenta
 Harc\u00e8lement -- harcelement
 harry potter -- harry-potter
@@ -445,7 +393,6 @@ illustration -- illustration
 image -- image
 Immortals -- immortals
 impression 3D -- impression-3d
-indiegogo -- indiegogo
 informaitique -- informaitique
 Instaclass -- instaclass
 Instagram -- instagram
@@ -456,20 +403,15 @@ Interlingua English School -- interlingua-english-school
 Internet -- internet
 Internet Explorer -- internet-explorer
 Internet mobile -- internet-mobile
-ioPixel -- iopixel
 iOS -- ios
 iPad -- ipad
 iPhone -- iphone
-iPod -- ipod
-iPod Touch -- ipod-touch
 ISS -- iss
 iTooch -- itooch
 Ixquick -- ixquick
-jaquette -- jaquette
 Jelly Jump -- jelly-jump
 jeu -- jeu
 jeu Android -- jeu-android
-jeu arcade -- jeu-arcade
 jeu collaboratif -- jeu-collaboratif
 jeu connect\u00e9 -- jeu-connecte
 jeu d'action -- jeu-daction
@@ -479,11 +421,9 @@ jeu d'objets cach\u00e9s -- jeu-dobjets-caches
 jeu de casse-t\u00eate -- jeu-de-casse-tete
 jeu de combats -- jeu-de-combats
 jeu de course -- jeu-de-course
-jeu de course sans fin -- jeu-de-course-sans-fin
 jeu de football -- jeu-de-football
 jeu de gestion -- jeu-de-gestion
 jeu de gestion de ressource -- jeu-de-gestion-de-ressource
-jeu de lettres -- jeu-de-lettres
 jeu de m\u00e9mo -- jeu-de-memo
 jeu de plateforme -- jeu-de-plateforme
 jeu de puzzle -- jeu-de-puzzle
@@ -492,30 +432,21 @@ jeu de r\u00e9flexion -- jeu-de-reflexion
 jeu de r\u00f4le -- jeu-de-role
 jeu de skate -- jeu-de-skate
 jeu de soci\u00e9t\u00e9 -- jeu-de-societe
-jeu de sport -- jeu-de-sport
 jeu de strat\u00e9gie -- jeu-de-strategie
-jeu de tennis -- jeu-de-tennis
 jeu de tir -- jeu-de-tir
 jeu \u00e9ducatif -- jeu-educatif
-jeu \u00e9nervant -- jeu-enervant
-jeu gratuit -- jeu-gratuit
 jeu ind\u00e9pendant -- jeu-independant
 jeu iOS -- jeu-ios
 jeu iPad -- jeu-ipad
 jeu iPhone -- jeu-iphone
 jeu Lego -- jeu-lego
 jeu Mac -- jeu-mac
-jeu minimaliste -- jeu-minimaliste
 jeu mobile -- jeu-mobile
-jeu par \u00e9pisode -- jeu-par-episode
 jeu PC -- jeu-pc
 jeu PS4 -- jeu-ps4
-jeu social -- jeu-social
 jeu vid\u00e9o -- jeu-video
 jeu web -- jeu-web
-jeu Window -- jeu-window
 jeu Windows -- jeu-windows
-jeu Windows Phone -- jeu-windows-phone
 jeu Xbox -- jeu-xbox
 jeux -- jeux
 jeux Android -- jeux-android
@@ -546,23 +477,17 @@ Ketchapp -- ketchapp
 Kev Adams -- kev-adams
 keynote -- keynote
 kickstarter -- kickstarter
-Kidscod.in -- kidscod-in
 Kim Kardashian -- kim-kardashian
 Kim Kardashian Hollywood -- kim-kardashian-hollywood
 King -- king
 King of Thieves -- king-of-thieves
 KissKissBangBang -- kisskissbangbang
-Kiwi -- kiwi
 Konami -- konami
 Kovacic's Mod Pack -- kovacics-mod-pack
 L'\u00c2ge de Glace -- lage-de-glace
-L'equipe.fr -- lequipe-fr
 L'Etudiant -- letudiant
-La Chasse aux Bugs -- la-chasse-aux-bugs
-La Guerre des \u00c9toiles -- la-guerre-des-etoiles
 La Reine des Neiges -- la-reine-des-neiges
 La Terre du Milieu -- la-terre-du-milieu
-langue -- langue
 Lara Croft -- lara-croft
 Larousse -- larousse
 Larousse 2016 -- larousse-2016
@@ -570,7 +495,6 @@ LastPass -- lastpass
 Layout -- layout
 Le Seigneur des Anneaux -- le-seigneur-des-anneaux
 Le Vlog de la blas\u00e9e -- le-vlog-de-la-blasee
-Le voyage d'Arlo -- le-voyage-darlo
 lecture -- lecture
 Lego -- lego
 Lego Dimensions -- lego-dimensions
@@ -589,8 +513,6 @@ Lightbeam -- lightbeam
 Limbo -- limbo
 Line -- line
 Links The Sun -- links-the-sun
-Lionel Messi -- lionel-messi
-Living the change -- living-the-change
 livre -- livre
 logiciel -- logiciel
 logiciel libre -- logiciel-libre
@@ -604,7 +526,6 @@ lyc\u00e9een -- lyceeen
 lyc\u00e9en -- lyceen
 Lyricstraining -- lyricstraining
 L\u2019\u00c2ge de Glace Avalanche -- lage-de-glace-avalanche
-M6 -- m6
 Ma Moyenne -- ma-moyenne
 mac -- mac
 Mad Max -- mad-max
@@ -616,7 +537,6 @@ manga -- manga
 Mario -- mario
 Mario Kart -- mario-kart
 Mark Crosby -- mark-crosby
-Mars Trek -- mars-trek
 Martin Handford -- martin-handford
 marvel -- marvel
 Marvel future fight -- marvel-future-fight
@@ -635,7 +555,6 @@ Meccano -- meccano
 Meccanoid -- meccanoid
 Medelia -- medelia
 Meerkat -- meerkat
-Meludia -- meludia
 Meowlingual -- meowlingual
 message priv\u00e9 -- message-prive
 message priv\u00e9e -- message-privee
@@ -644,24 +563,19 @@ messagerie instantan\u00e9e -- messagerie-instantanee
 messagerie vocale -- messagerie-vocale
 Messenger -- messenger
 Metabot -- metabot
-m\u00e9thode -- methode
 m\u00e9tier -- metier
 m\u00e9tiers -- metiers
 MicMaths -- micmaths
-Mic -- microbit
 Microsoft -- microsoft
-Microsoft Edge -- microsoft-edge
 Midori -- midori
 Millenaire -- millenaire
 Millenium -- millenium
 Minecraft -- minecraft
 minecraft 2015 -- minecraft-2015
 Minecraft pocket edition -- minecraft-pocket-edition
-Minecraft Story Mode -- minecraft-story-mode
 Mini Racing Adventures -- mini-racing-adventures
 minicours -- minicours
 minicours.com -- minicours-com
-Minion Rush -- minion-rush
 Mirobot -- mirobot
 mise \u00e0 jour -- mise-a-jour
 Mister Selfie -- mister-selfie
@@ -671,10 +585,8 @@ MNHN -- mnhn
 Mobibac -- mobibac
 mobiBrevet -- mobibrevet
 Mobile World Congress -- mobile-world-congress
-Moche et M\u00e9chant - Minion Rush -- moche-et-mechant-minion-rush
 mod -- mod
 mod 2015 -- mod-2015
-Moi -- moi
 Mojang -- mojang
 Moment -- moment
 MomentCam -- momentcam
@@ -688,9 +600,7 @@ Mooc -- mooc
 mot de passe -- mot-de-passe
 moteur de recherche -- moteur-de-recherche
 Motorsport Manager -- motorsport-manager
-Mots entre amis -- mots-entre-amis
 mots m\u00eal\u00e9s -- mots-meles
-Mountain Goat Mountain -- mountain-goat-mountain
 Mozilla -- mozilla
 MP -- mp
 Mr Jump -- mr-jump
@@ -702,7 +612,6 @@ musique -- musique
 MWC -- mwc
 MyIdol -- myidol
 Mykidio -- mykidio
-nano-ordinateur -- nano-ordinateur
 NASA -- nasa
 navigateur -- navigateur
 NBA -- nba
@@ -715,16 +624,12 @@ Netflix -- netflix
 nettoyage -- nettoyage
 nettoyer android -- nettoyer-android
 News -- news
-newsletter -- newsletter
 Neymar Junior -- neymar-junior
 Nike -- nike
 ninja -- ninja
 Nintendo -- nintendo
 Nintendo 3DS -- nintendo-3ds
-Nintendo DS -- nintendo-ds
 No Man's Sky -- no-mans-sky
-No Pain No Game -- no-pain-no-game
-Nono Islands -- nono-islands
 Now Computing -- now-computing
 Nuit des Mus\u00e9es -- nuit-des-musees
 numerique -- numerique
@@ -780,16 +685,11 @@ photo -- photo
 photographie -- photographie
 photomath -- photomath
 photomontage -- photomontage
-Photoshop -- photoshop
 physique -- physique
-PicMonkey -- picmonkey
-Picozu -- picozu
 Pili Pop -- pili-pop
 Pinball Sniper -- pinball-sniper
 Pixar -- pixar
 Pixel Art -- pixel-art
-Pixels -- pixels
-Pixlr -- pixlr
 plateforme -- plateforme
 plateforme web -- plateforme-web
 Play Station -- play-station
@@ -801,7 +701,6 @@ Pleek -- pleek
 poisson d'avril -- poisson-davril
 Pok\u00e9mon -- pokemon
 Pok\u00e9mon Shuffle -- pokemon-shuffle
-Polarr -- polarr
 post-bac -- post-bac
 Powerpoint -- powerpoint
 pr\u00e9histoire -- prehistoire
@@ -812,7 +711,6 @@ Primo -- primo
 Prince of Persia Shadow &amp; Flame -- prince-of-persia-shadow-flame
 privacy -- privacy
 privay -- privay
-Pro Cycling 2015 -- pro-cycling-2015
 professeur Layton -- professeur-layton
 programmation -- programmation
 programme -- programme
@@ -827,18 +725,13 @@ Pure Luge -- pure-luge
 puzzle -- puzzle
 puzzle game -- puzzle-game
 Puzzle Pets -- puzzle-pets
-Pyro Jump -- pyro-jump
 Python -- python
-q&amp;a -- qa
 Qantara -- qantara
-QR Code -- qr-code
 quantified self -- quantified-self
 Quelle Histoire -- quelle-histoire
-question r\u00e9ponse -- question-reponse
 Quetzalcoatl -- quetzalcoatl
 quiz -- quiz
 quiz musical -- quiz-musical
-QuizUp -- quizup
 quizz -- quizz
 Qwant -- qwant
 Qwant Junior -- qwant-junior
@@ -857,8 +750,6 @@ r\u00e9seau social -- reseau-social
 r\u00e9seaux sociaux -- reseaux-sociaux
 Respirelax -- respirelax
 retouche photo -- retouche-photo
-retour d'image -- retour-dimage
-retourche photo -- retourche-photo
 retrogaming -- retrogaming
 Retry -- retry
 retweet -- retweet
@@ -869,7 +760,6 @@ Riff -- riff
 Rise Against The Empire -- rise-against-the-empire
 Risk -- risk
 robot -- robot
-robot compagnon -- robot-compagnon
 robotiique -- robotiique
 robotique -- robotique
 Rock On -- rock-on
@@ -882,17 +772,14 @@ Run Bird Run -- run-bird-run
 run quiz -- run-quiz
 Runner Games -- runner-games
 running game -- running-game
-Rush Hero -- rush-hero
 Rushin' Paris -- rushin-paris
 Safari -- safari
 Safer Internet Day -- safer-internet-day
 Safety Center -- safety-center
 salon -- salon
 Samsung -- samsung
-Samsung Galaxy Tab S2 -- samsung-galaxy-tab-s2
 sandbox -- sandbox
 sauvegarde -- sauvegarde
-SBK15 -- sbk15
 scareware -- scareware
 School of Magic -- school-of-magic
 Schoolmouv -- schoolmouv
@@ -900,10 +787,8 @@ science -- science
 sciences -- sciences
 Scimob -- scimob
 Scott Kelly -- scott-kelly
-Scrabble -- scrabble
 Scratch -- scratch
 Scribbler -- scribbler
-SDF -- sdf
 Season Panic -- season-panic
 secours -- secours
 s\u00e9curit\u00e9 -- securite
@@ -920,10 +805,8 @@ simulateur -- simulateur
 simulateur agricole -- simulateur-agricole
 simulateur de vol -- simulateur-de-vol
 simulation -- simulation
-simulation de football -- simulation-de-football
 simulation spatiale -- simulation-spatiale
 Siphano -- siphano
-site web -- site-web
 Sketchman -- sketchman
 skin Minecraft -- skin-minecraft
 Sky Punks -- sky-punks
@@ -940,19 +823,15 @@ Smash Bros -- smash-bros
 SMS -- sms
 SMS surtax\u00e9s -- sms-surtaxes
 snapchat -- snapchat
-Snapcode -- snapcode
 snaps -- snaps
 snapschool -- snapschool
 Snapseed -- snapseed
 sneakers -- sneakers
 SNKRS -- snkrs
-solf\u00e8ge -- solfege
-Solidarit\u00e9 -- solidarite
 Son Gok\u00fb -- son-goku
 sondage -- sondage
 Song Pop -- song-pop
 SongeBob -- songebob
-Sonic -- sonic
 Sony -- sony
 Spaceteam -- spaceteam
 Sphero -- sphero
@@ -970,15 +849,12 @@ Star Citizen -- star-citizen
 Star Wars -- star-wars
 Star Wars BattleFront -- star-wars-battlefront
 Star Wars Rebels -- star-wars-rebels
-Star Wars VR -- star-wars-vr
 station spatiale -- station-spatiale
 Steam -- steam
 steaming -- steaming
-Stick Tennis -- stick-tennis
 sticker -- sticker
 stickered -- stickered
 stockage -- stockage
-Stories -- stories
 strat\u00e9gie -- strategie
 streaming -- streaming
 streaming live -- streaming-live
@@ -999,14 +875,11 @@ super-h\u00e9ros -- super-heros
 SVOD -- svod
 tablette -- tablette
 Take on Mars -- take-on-mars
-Talk Different -- talk-different
 TechDays -- techdays
 technologie -- technologie
 Ted the Jumper -- ted-the-jumper
-t\u00e9l\u00e9chargement -- telechargement
 t\u00e9l\u00e9phone mobile -- telephone-mobile
 t\u00e9l\u00e9phonie -- telephonie
-TElltale -- telltale
 Temple Run -- temple-run
 tennis -- tennis
 Terrabilis -- terrabilis
@@ -1014,13 +887,11 @@ Terraria -- terraria
 test -- test
 test application -- test-application
 test d'anglais -- test-danglais
-test jeu -- test-jeu
 Tetris -- tetris
 TFou -- tfou
 TFou Max -- tfou-max
 ThaMographe -- thamographe
 The Amazing Spider Man 2 -- the-amazing-spider-man-2
-The Associated Press -- the-associated-press
 The Bella Twins -- the-bella-twins
 The Crew -- the-crew
 The Dark Knight rises -- the-dark-knight-rises
@@ -1040,13 +911,9 @@ Ticatag -- ticatag
 TICE -- tice
 Tim Cook -- tim-cook
 Timefish -- timefish
-Tip-off Basketball -- tip-off-basketball
 Toca Nature -- toca-nature
 Tomb Raider -- tomb-raider
 Tor Browser -- tor-browser
-Tour de France -- tour-de-france
-Tour de France 2015 -- tour-de-france-2015
-tower defense -- tower-defense
 Toyotaro -- toyotaro
 TPE -- tpe
 tracking -- tracking
@@ -1061,7 +928,6 @@ Twitch -- twitch
 Twitter -- twitter
 Ubisoft -- ubisoft
 uchroniques -- uchroniques
-UGC -- ugc
 ulule -- ulule
 unity -- unity
 Universcience.tv -- universcience-tv
@@ -1090,13 +956,11 @@ Wattpad -- wattpad
 Wazasound -- wazasound
 web -- web
 web app -- web-app
-webapp -- webapp
 webtv -- webtv
 Wechat -- wechat
 WesterosCraft -- westeroscraft
 whatsapp -- whatsapp
 Whiskas -- whiskas
-Who Deteled Me -- who-deteled-me
 Wii U -- wii-u
 wiki -- wiki
 Wikip\u00e9dia -- wikipedia
@@ -1109,7 +973,6 @@ Windows Phone -- windows-phone
 Wolverines -- wolverines
 Word -- word
 Word Academy -- word-academy
-Words with Friends -- words-with-friends
 Worms 3 -- worms-3
 WWE -- wwe
 WWE Immortals -- wwe-immortals
@@ -1126,4 +989,3 @@ youtuber -- youtuber
 Zelda -- zelda
 Z\u00e9ro Stress -- zero-stress
 Zigzag -- zigzag
-Zynga -- zynga

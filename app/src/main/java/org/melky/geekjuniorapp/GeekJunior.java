@@ -438,8 +438,10 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
                 break;
             case 16:
                 mTitle = getString(R.string._footer);
+                break;
             case 17:
                 mTitle = getString(R.string.ph_buscar);
+                break;
         }
     }
 }

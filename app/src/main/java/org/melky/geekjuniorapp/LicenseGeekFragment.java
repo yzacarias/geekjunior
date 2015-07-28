@@ -1,12 +1,15 @@
 package org.melky.geekjuniorapp;
 
 import android.app.ActionBar;
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.text.Html;
 import android.text.Spanned;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
@@ -30,5 +33,19 @@ public class LicenseGeekFragment extends Fragment{
 
 
         return rootView;
+    }
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        setHasOptionsMenu(true);
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        if (menu.hasVisibleItems())
+            menu.removeItem(menu.getItem(0).getItemId());
+
     }
 }

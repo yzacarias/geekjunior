@@ -7,6 +7,8 @@ import android.net.Uri;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -27,6 +29,7 @@ public class PlusOneGeekFragment extends Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
+        setHasOptionsMenu(true);
         act = (GeekJunior) activity;
 
         if(GoogleAnalyticsApp.googleAnalitic) {
@@ -95,5 +98,13 @@ public class PlusOneGeekFragment extends Fragment {
         });
 
         return rootView;
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        if (menu.hasVisibleItems())
+            menu.removeItem(menu.getItem(0).getItemId());
+
     }
 }
