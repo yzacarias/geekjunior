@@ -155,7 +155,7 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
             }else{
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.container, new PlaceholderFragment(17))
-                        .addToBackStack(null)
+                        .addToBackStack("PlaceholderFragment2")
                         .commit();
             }
 
@@ -204,6 +204,10 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
         if (i==2 || !searchView.isIconified()) {
             fragmentManager.popBackStackImmediate("PlaceholderFragment", FragmentManager.POP_BACK_STACK_INCLUSIVE);
             mTitle = getString(R.string._header);
+            restoreActionBar();
+        }else if(i>4){
+            fragmentManager.popBackStackImmediate("PlaceholderFragment2", FragmentManager.POP_BACK_STACK_INCLUSIVE);
+            mTitle = getString(R.string.ph_buscar);
             restoreActionBar();
         }else {
             if(searchView.isIconified())
