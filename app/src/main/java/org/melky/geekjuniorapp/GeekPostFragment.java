@@ -1,6 +1,7 @@
 package org.melky.geekjuniorapp;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -8,6 +9,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
@@ -20,6 +22,9 @@ import java.util.List;
 public class GeekPostFragment extends Fragment {
     GeekJunior a;
     List<Post> lp;
+    ListView l;
+    View footerView;
+    boolean loading=false;
 
     public GeekPostFragment() {
     }
@@ -35,17 +40,18 @@ public class GeekPostFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         lp = a.getPosts();
+        footerView = ((LayoutInflater) a.getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(R.layout.footer, null, false);
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-        ListView l = (ListView) rootView.findViewById(R.id.list_view);
+        l = (ListView) rootView.findViewById(R.id.list_view);
         l.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 FragmentManager fragmentManager = a.getSupportFragmentManager();
                 Bundle b = new Bundle();
-                b.putString("url_string",lp.get(position).content);
-                b.putString("detail_post","1");
-                b.putString("title",lp.get(position).title);
-                b.putString("uURL",lp.get(position).link);
+                b.putString("url_string", lp.get(position).content);
+                b.putString("detail_post", "1");
+                b.putString("title", lp.get(position).title);
+                b.putString("uURL", lp.get(position).link);
                 WebFragment wf = new WebFragment();
                 wf.setArguments(b);
                 fragmentManager.beginTransaction()
@@ -55,7 +61,52 @@ public class GeekPostFragment extends Fragment {
                         .commit();
             }
         });
-        l.setAdapter(new GeekPostAdapter(a.getApplicationContext(),R.layout.geekpost,lp));
+        l.addFooterView(footerView, null, false);
+        l.setAdapter(new GeekPostAdapter(a.getApplicationContext(), R.layout.geekpost, lp));
+        l.removeFooterView(footerView);
+        l.setOnScrollListener(new AbsListView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(AbsListView arg0, int arg1) {
+                // nothing here
+            }
+
+            @Override
+            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+                if (load(firstVisibleItem, visibleItemCount, totalItemCount)) {
+                    loading = true;
+                    l.addFooterView(footerView, null, false);
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            try {
+                                Thread.sleep(5000,0);
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+                            a.runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    l.removeFooterView(footerView);
+                                }
+                            });
+                            loading = false;
+                        }
+                    }).start();
+
+                    //(new LoadNextPage()).execute("");
+                }
+            }
+        });
         return rootView;
+    }
+
+    private boolean load(int firstVisibleItem, int visibleItemCount, int totalItemCount)
+    {
+        boolean lastItem = firstVisibleItem + visibleItemCount == totalItemCount &&
+                l.getChildAt(visibleItemCount -1) != null &&
+                l.getChildAt(visibleItemCount-1).getBottom() <= l.getHeight();
+        /*boolean moreRows = l.getAdapter().getCount() < 50;
+        return moreRows && lastItem && !loading;     */
+        return lastItem && !loading;
     }
 }
