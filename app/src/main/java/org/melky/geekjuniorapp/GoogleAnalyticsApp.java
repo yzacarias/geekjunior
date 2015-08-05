@@ -7,16 +7,21 @@ import android.preference.PreferenceManager;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.Tracker;
 
+import java.lang.reflect.Array;
 import java.util.HashMap;
 
 /**
  * Created by Administrador on 14/05/2015.
  */
 public class GoogleAnalyticsApp extends Application {
+    //putero de paginacion
+    public static Integer paginacion_post =  new Integer(1);
+    public static Integer paginacion_categorias =  new Integer(1);
+    public static Integer paginacion_busquedas = new Integer(1);
+
     public static boolean googleAnalitic;
     // change the following line
     private static final String PROPERTY_ID = "XX-XXXXXXXX-X";
-
 
     public static int GENERAL_TRACKER = 0;
 

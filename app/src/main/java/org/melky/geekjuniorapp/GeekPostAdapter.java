@@ -178,4 +178,8 @@ public class GeekPostAdapter extends BaseAdapter{
 
         return sb.toString();
     }
+
+    public void add (Post p){
+            list.add(p);
+    }
 }

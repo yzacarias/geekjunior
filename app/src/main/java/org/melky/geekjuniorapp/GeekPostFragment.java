@@ -12,7 +12,15 @@ import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.lang.reflect.Type;
 import java.util.List;
 
 /**
@@ -25,6 +33,10 @@ public class GeekPostFragment extends Fragment {
     ListView l;
     View footerView;
     boolean loading=false;
+    GeekPostAdapter gpa;
+    Gson gson;
+    Type tipoListPost;
+    List<Post> posts;
 
     public GeekPostFragment() {
     }
@@ -62,7 +74,8 @@ public class GeekPostFragment extends Fragment {
             }
         });
         l.addFooterView(footerView, null, false);
-        l.setAdapter(new GeekPostAdapter(a.getApplicationContext(), R.layout.geekpost, lp));
+        gpa = new GeekPostAdapter(a.getApplicationContext(), R.layout.geekpost, lp);
+        l.setAdapter(gpa);
         l.removeFooterView(footerView);
         l.setOnScrollListener(new AbsListView.OnScrollListener() {
             @Override
@@ -75,7 +88,33 @@ public class GeekPostFragment extends Fragment {
                 if (load(firstVisibleItem, visibleItemCount, totalItemCount)) {
                     loading = true;
                     l.addFooterView(footerView, null, false);
-                    new Thread(new Runnable() {
+                    StringRequest j = new StringRequest("http://www.geekjunior.fr/wp-json/posts?filter[posts_per_page]=10 & page=" + GoogleAnalyticsApp.paginacion_post.toString(), new Response.Listener<String>() {
+                        @Override
+                        public void onResponse(String jsonArray) {
+                            //doPost();
+                            gson = new Gson();
+                            tipoListPost = new TypeToken<List<Post>>(){}.getType();
+                            posts = gson.fromJson(jsonArray, tipoListPost);
+
+                            //doAdd();
+                            for (Post value : posts){
+                                gpa.add(value);
+                            }
+
+                            //Notify
+                            gpa.notifyDataSetChanged();
+                            l.removeFooterView(footerView);
+                            loading = false;
+                            GoogleAnalyticsApp.paginacion_post = GoogleAnalyticsApp.paginacion_post + 1;
+                        }
+                    }, new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError volleyError) {
+                            l.removeFooterView(footerView);
+                        }
+                    });
+                    VolleySingleton.getInstance(a.getApplicationContext()).addToRequestQueue(j);
+                    /*new Thread(new Runnable() {
                         @Override
                         public void run() {
                             try {
@@ -91,8 +130,7 @@ public class GeekPostFragment extends Fragment {
                             });
                             loading = false;
                         }
-                    }).start();
-
+                    }).start();*/
                     //(new LoadNextPage()).execute("");
                 }
             }
