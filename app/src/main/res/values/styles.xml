@@ -1,25 +1,32 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
 
-        <!-- Customize your theme here. -->
+<!-- Customize your theme here. -->
+
+<!--
         <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
         <item name="android:textColorHint">@color/hint_foreground_material_dark</item>
-
         <item name="android:dropDownItemStyle">@style/Widget.DropDownItemLight</item>
-        <!--
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AutoCompleteTextViewLight</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="searchViewStyle">@style/Widget.AppCompat.SearchView.ActionBar</item>
+        <item name="android:dropDownItemStyle">@style/Widget.AppCompat.Light.SearchView</item>
+        <item name="android:statusBarColor">@android:color/primary_text_light</item>
         -->
+        <item name="android:statusBarColor">#FF520075</item>
     </style>
 
+<!--
     <style name="Widget.AutoCompleteTextViewLight" parent="@android:style/Widget.AutoCompleteTextView">
         <item name="android:textColor">@android:color/primary_text_dark</item>
     </style>
 
     <style name="Widget.DropDownItemLight" parent="@android:style/Widget.DropDownItem">
-        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
     </style>
+-->
 
 
 </resources>

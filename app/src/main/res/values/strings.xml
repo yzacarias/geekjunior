@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GeekJunior</string>
+    <string name="app_name">Geek Junior</string>
 
     <string name="action_example">Recher</string>
     <string name="action_settings">Paramètres</string>
@@ -69,34 +69,29 @@
     <string name="pref_gcm_summ">Notificiaciones serveur envoyer régulièrement des nouveau poste</string>
 
     <string name="license">
-        <![CDATA[
-<h5><b>A propos de Geek Junior:</b></h5>
-<p>Geek Junior s\’adresse aux adolescents même si tout le monde y est le bienvenu.
-<p>Actualités, tests, tutoriels et vidéos… Geek Junior traite essentiellement des applications mobiles, des jeux vidéo, des gadgets geek et des solutions éducatives pour aider les adolescents dans leur travail scolaire.</p>
-<p>Créer par deux parents d\’adolescents, Geek Junior se veut un lieu de découverte et d\’échange, avec l\’utilisation d\’un ton direct sans être infantilisant ni moralisateur.</p>
-<p>Pour nous joindre : contact@geekjunior.fr<br>
-Pour joindre la rédaction : redaction@geekjunior.fr</p>
-<h6><b>Editeurs:</b></h6>
-Mariel Balbuena Vallejos et Christophe Coquis<br>
-Adresse : 7 petite rue Cabrol - 81600 Gaillac<br>
-Directeur de la publication : Christophe Coquis<br>
-Contact : geekjunior.fr/contact<br>
-Hébergement : Qwant<br>
-<p> </p>
-]]>
+<![CDATA[
+		<h4><b>Bienvenue sur Geek Junior !</b></h4>
+		<p>Geek Junior est un site d\'information high-tech et de sensibilisation aux technologies du numérique à destination des adolescents.</p>
+		<p>La génération des ados technophiles est déjà là. Le média pour les informer et les conseiller n\'existait pas. C\'est l\'ambition de Geek Junior de combler ce vide en publiant tous les jours des contenus adaptés à un public adolescent.</p>
+		<p>Actualités, tests, tutoriels et vidéos… Geek Junior traite essentiellement des applications mobiles, des jeux vidéo, des gadgets geek et des solutions éducatives pour aider les adolescents dans leur travail scolaire.</p>
+		<p>Créer par deux parents d\'adolescents, Geek Junior se veut un lieu de découverte et d\'échange, avec l\'utilisation d\'un ton direct sans être infantilisant ni moralisateur.</p>
+		<p>Outre le site web adapté à une lecture mobile, Geek Junior veut continuer la conversation avec les adolescents sur Facebook, Twitter et YouTube. Une application mobile va rapidement suivre.
+		<p>Pour nous joindre : <a href="contact@geekjunior.fr">contact@geekjunior.fr</a><br>
+  		Pour joindre la rédaction : <a href="contact@geekjunior.fr">contact@geekjunior.fr</a></p>
+		<h5><b>Qui s\'occupe de Geek Junior ?</b></h5>
+		<p>Christophe Coquis : professionnel des médias depuis plus de 15 ans, Christophe a été le rédacteur en chef du portail high-tech Softonic.fr de 2011 à 2014.</p>
+		<p>Mariel Balbuena Vallejos : après des études de journalisme dans son paynatal, le Pérou, Mariel a continué sa formation en France avec une formation en infographisme.</p>
+		]]>
     </string>
     <string name="license2">
         <![CDATA[
-<h5><b>L\'application: </b></h5>
-<p>\"Geekjunior pour Android\" est publié en tant que logiciel libre sous licence
-\"GNU General Public License, Version 2, Juin 1991 (GPLv2).\"</p>
-<p>Le code source est public dans https://github.com/yzacarias/geekjunior</p>
-<p> </p>
-<h5><b>Conception de l\'application:</b></h5>
-Rafael Romero Sánchez (yzacarias@gmail.com)
-<br>
-<p> </p>
-]]>
+		<h4>L\'application:</h4>
+		<p>\"Geek Junior pour Android\" est publié en tant que logiciel libre sous licence \"GNU General Public License, Version 2, Juin 1991 (GPLv2).\"</p>
+		<p>Le code source est public dans <a href="https://github.com/yzacarias/geekjunior">https://github.com/yzacarias/geekjunior</a></p>
+		<h5>Conception de l\'application:</h5>
+		<p>Rafael Romero Sánchez: Professionel ingénieur logiciel depuis plus de 17 ans.</p>
+		<p>Contact: <a href="yzacarias@gmail.com">yzacarias@gmail.com</a></p>
+		]]>
     </string>
     <string name="search_label">geekjunior</string>
     <string name="search_hint">geekjunior</string>
