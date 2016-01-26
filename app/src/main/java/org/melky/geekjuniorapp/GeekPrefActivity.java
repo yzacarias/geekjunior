@@ -1,5 +1,7 @@
 package org.melky.geekjuniorapp;
 
+import android.app.ActionBar;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 

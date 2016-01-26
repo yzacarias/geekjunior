@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.V21.Theme.AppCompat.Light">
+
+        <item name="android:statusBarColor">@color/FF520075</item>
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColor">@color/abc_primary_text_material_light</item>
+        <item name="colorAccent">@color/FF8F00CC</item>
+    </style>
+
+</resources>
+<!--
+
+<item name="colorAccent">@color/FF8F00CC</item>
+
+-->

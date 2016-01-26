@@ -24,7 +24,9 @@
 
         </activity>
 
-        <activity android:name=".GeekPrefActivity"/>
+       <activity android:name=".GeekPrefActivity">
+
+       </activity>
 
         <activity android:name=".GeekJunior"
             android:launchMode="singleTop">

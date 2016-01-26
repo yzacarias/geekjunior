@@ -64,7 +64,7 @@ public class WebFragment extends Fragment {
 
 	@Override
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-		super.onCreateOptionsMenu(menu, inflater);
+
 		if(menu.hasVisibleItems())
 			menu.removeItem(menu.getItem(0).getItemId());
 		inflater.inflate(R.menu.main_menu, menu);
@@ -113,6 +113,7 @@ public class WebFragment extends Fragment {
 				return false;
 			}
 		});
+		super.onCreateOptionsMenu(menu, inflater);
 
 	}
 

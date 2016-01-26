@@ -34,7 +34,7 @@
         android:id="@+id/menu_share"
         android:title="@string/menu_share"
         support:actionProviderClass="org.melky.geekjuniorapp.PostShareActionProvider"
-        support:showAsAction="always"
+        support:showAsAction="collapseActionView|ifRoom"
         android:icon="@android:drawable/ic_menu_share"/>
 
 </menu>

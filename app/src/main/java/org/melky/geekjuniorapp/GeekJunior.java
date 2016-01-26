@@ -171,7 +171,7 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setDisplayShowTitleEnabled(true);
         actionBar.setTitle(mTitle);
-        actionBar.setBackgroundDrawable(new ColorDrawable(0xFF8F00CC));
+        //actionBar.setBackgroundDrawable(new ColorDrawable(0xFF8F00CC));
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

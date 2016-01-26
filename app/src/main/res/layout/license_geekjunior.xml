@@ -58,7 +58,7 @@
             android:id="@+id/license_geekjunior"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#C2C2C2"
+            android:background="#deb3ff"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:textColor="@color/abc_primary_text_material_light"
