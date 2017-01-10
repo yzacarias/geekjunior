@@ -364,7 +364,7 @@ public class GeekJunior extends AppCompatActivity implements NavigationDrawerFra
     }
 
     private void getJsonToFragment(String jsonPropertie,String filter) {
-        StringRequest j = new StringRequest("http://www.geekjunior.fr/wp-json/posts?filter["+filter+"]="+jsonPropertie, new Response.Listener<String>() {
+        StringRequest j = new StringRequest("https://www.geekjunior.fr/wp-json/posts?filter["+filter+"]="+jsonPropertie, new Response.Listener<String>() {
             @Override
             public void onResponse(String jsonArray) {
                 gson = new Gson();

@@ -66,7 +66,7 @@ public class splashScreen extends Activity {
         //http://www.geekjunior.fr/wp-json/posts?filter[tag]=jeu-iphone
         //http://www.geekjunior.fr/wp-json/posts/?filter[year]=2015&filter[monthnum]=5&filter[day]=17&filter[posts_per_page]=10
         //http://www.geekjunior.fr/wp-json/posts/?filter[posts_per_page]=1&page=6
-        StringRequest j = new StringRequest("http://www.geekjunior.fr/wp-json/posts?filter[posts_per_page]=10 & page=1", new Response.Listener<String>() {
+        StringRequest j = new StringRequest("https://www.geekjunior.fr/wp-json/posts?filter[posts_per_page]=10 & page=1", new Response.Listener<String>() {
             @Override
             public void onResponse(String jsonArray) {
                 GoogleAnalyticsApp.paginacion_post = GoogleAnalyticsApp.paginacion_post + 1;

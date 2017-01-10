@@ -88,7 +88,7 @@ public class GeekPostFragment extends Fragment {
                 if (load(firstVisibleItem, visibleItemCount, totalItemCount)) {
                     loading = true;
                     l.addFooterView(footerView, null, false);
-                    StringRequest j = new StringRequest("http://www.geekjunior.fr/wp-json/posts?filter[posts_per_page]=10 & page=" + GoogleAnalyticsApp.paginacion_post.toString(), new Response.Listener<String>() {
+                    StringRequest j = new StringRequest("https://www.geekjunior.fr/wp-json/posts?filter[posts_per_page]=10 & page=" + GoogleAnalyticsApp.paginacion_post.toString(), new Response.Listener<String>() {
                         @Override
                         public void onResponse(String jsonArray) {
                             //doPost();

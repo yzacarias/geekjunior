@@ -8,8 +8,8 @@ android {
         applicationId "org.melky.geekjuniorapp"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 1
-        versionName "1.0.2a"
+        versionCode 5
+        versionName "1.0.5a"
     }
     buildTypes {
         release {
